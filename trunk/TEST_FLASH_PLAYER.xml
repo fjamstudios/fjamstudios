@@ -3,7 +3,7 @@
   <ModulePrefs title="Flash Player Test" />
   <Content type="html">
     <![CDATA[
-      <object xmlns="http://www.w3.org/1999/xhtml" data="https://fjamstudios.googlecode.com/svn/wiki/slim_player.swf?song_url=https://dl.dropbox.com/s/u9d4daijx1wo3pt/Blood Oranges1 .mp3?dl=1&player_title=Latest Mix&song_title=Latest Mix" height="20" type="application/x-shockwave-flash" width="250">
+      <object xmlns="http://www.w3.org/1999/xhtml" data="https://fjamstudios.googlecode.com/svn/wiki/slim_player.swf" height="20" type="application/x-shockwave-flash" width="250">
 <param name="movie" value="https://fjamstudios.googlecode.com/svn/wiki/slim_player.swf" />
 </object>
     ]]>
