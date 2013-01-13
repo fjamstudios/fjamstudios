@@ -3,10 +3,10 @@
   <ModulePrefs title="Main Menu" />
   <Content type="html">
     <![CDATA[
-      <center><font color="#000000"><b><font size="4">- MAIN MENU -</font></b></font></center><script type="text/javascript" src="http://home.comcast.net/~fjam2010/menu/stmenu.js"></script>
+      <center><font color="#000000"><b><font size="4">- MAIN MENU -</font></b></font></center><script type="text/javascript" src="http://fjamstudios.googlecode.com/svn/trunk/wiget/stmenu.js"></script>
 <script type="text/javascript">
 <!--
-stm_bm(["menu050b",900,"http://home.comcast.net/~fjam2010/menu/","blank.gif",0,"","",1,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand","",1,25],this);
+stm_bm(["menu050b",900,"http://fjamstudios.googlecode.com/svn/trunk/wiget","blank.gif",0,"","",1,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand","",1,25],this);
 stm_bp("p0",[0,4,0,0,0,3,5,7,100,"",-2,"",-2,50,0,0,"#999999","transparent","",3,0,0,"#000000"]);
 stm_ai("p0i0",[0,"HOME","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/","_top","","Starting point for navigating F-Jam","","",5,5,0,"","",0,0,0,1,1,"#66CCCC",0,"#66CCCC",0,"","",3,1,0,0,"#FFFFF7","#000000","#FF3300","#000000","bold 9pt Arial","bold 9pt Arial",0,0,"","","","",0,0,0]);
 stm_aix("p0i1","p0i0",[0,"Members","","",-1,-1,0,"","_self","","","","",5,5,0,"arrow_r.gif","arrow_r.gif",7,7,0,1,1,"#66CCCC",0,"#66CCCC",0,"","",3,1,0,0,"#FFFFF7","#000000","#000000","#FF3300"]);
