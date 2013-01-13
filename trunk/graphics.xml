@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Graphics Menu" />
+  <Content type="html">
+    <![CDATA[
+      <script type="text/javascript" src="http://home.comcast.net/~fjam2010/menu/stmenu.js"></script>
+<script type="text/javascript">
+<!--
+stm_bm(["menu050b",900,"http://home.comcast.net/~fjam2010/menu/","blank.gif",0,"","",1,0,250,0,1000,1,0,0,"","",0,0,1,2,"default","hand","",1,25],this);
+stm_bp("p0",[0,4,0,0,0,3,5,7,100,"",-2,"",-2,50,0,0,"#999999","transparent","",3,0,0,"#000000"]);
+stm_ai("p0i0",[0,"Graphics","","",-1,-1,0,"","_self","","Use these graphics in your posts","","",5,5,0,"arrow_r.gif","arrow_r.gif",7,7,0,1,1,"#66CCCC",0,"#66CCCC",0,"","",3,1,0,0,"#FFFFF7","#000000","#000000","#FF3300","bold 7pt Arial","bold 7pt Arial",0,0,"","","","",0,0,0]);
+stm_bpx("p1","p0",[1,4]);
+stm_aix("p1i0","p0i0",[0,"QUOTE","","",-1,-1,0,"javascript:window.open(\"https://sites.google.com/site/fjampages/add-quotes-to-messages\",\"_blank\",\"width=800,height=400,status=yes,scrollbars=no,\");void(0)","_self","","Use this to quote in messages","","",5,5,0,"","",0,0,0,0,0]);
+stm_aix("p1i1","p1i0",[0,"Smilies Page 1","","",-1,-1,0,"javascript:window.open(\"https://sites.google.com/site/fjampages/smilies-page-1\",\"_blank\",\"width=200,height=600,status=yes,scrollbars=yes,\");void(0)","_self","","1st page of smilies"]);
+stm_aix("p1i2","p1i0",[0,"Smilies Page 2","","",-1,-1,0,"javascript:window.open(\"https://sites.google.com/site/fjampages/smilies-page-2\",\"_blank\",\"width=200,height=600,status=yes,scrollbars=yes,\");void(0)","_self","","2nd page of smilies"]);
+stm_aix("p1i3","p1i0",[0,"Smilies Page 3","","",-1,-1,0,"javascript:window.open(\"https://sites.google.com/site/fjampages/smilies-page-3\",\"_blank\",\"width=200,height=600,status=yes,scrollbars=yes,\");void(0)","_self","","3rd page of smilies"]);
+stm_aix("p1i4","p1i0",[0,"Smilies Page 4","","",-1,-1,0,"javascript:window.open(\"https://sites.google.com/site/fjampages/smilies-page-4\",\"_blank\",\"width=200,height=600,status=yes,scrollbars=yes,\");void(0)","_self","","4th page of smilies"]);
+stm_aix("p1i5","p1i0",[0,"Smilies Page 5","","",-1,-1,0,"javascript:window.open(\"https://sites.google.com/site/fjampages/smilies-page-5\",\"_blank\",\"width=200,height=600,status=yes,scrollbars=yes,\");void(0)","_self","","5th page of smilies"]);
+stm_aix("p1i6","p1i0",[0,"Members","","",-1,-1,0,"","_self","","Member profiles listed by last name (if used)","","",5,5,0,"arrow_r.gif","arrow_r.gif",7,7]);
+stm_bpx("p2","p0",[1,2,0,0,0,3,5,0]);
+stm_aix("p2i0","p1i0",[0,"A - F","","",-1,-1,0,"javascript:window.open(\"http://sites.google.com/site/fjamages/a-f\",\"_blank\",\"width=400,height=600,status=no,scrollbars=yes,\");void(0);void(0);void(0);void(0)","_self","","Show member avatars, and profile links based on last name (if used)."]);
+stm_aix("p2i1","p2i0",[0,"G - L","","",-1,-1,0,"javascript:window.open(\"http://sites.google.com/site/fjamages/g-l\",\"_blank\",\"width=400,height=600,status=no,scrollbars=yes,\");void(0);void(0);void(0);void(0)"]);
+stm_aix("p2i2","p2i0",[0,"M - R","","",-1,-1,0,"javascript:window.open(\"http://sites.google.com/site/fjamages/m-r\",\"_blank\",\"width=400,height=600,status=no,scrollbars=yes,\");void(0);"]);
+stm_aix("p2i3","p2i0",[0,"S - Z","","",-1,-1,0,"javascript:window.open(\"http://sites.google.com/site/fjamages/s-z\",\"_blank\",\"width=400,height=600,status=no,scrollbars=yes,\");void(0)"]);
+stm_ep();
+stm_aix("p1i7","p1i0",[0,"Graphics HELP","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/help/addingsmiliestoamessage","_blank","","How to add smilies to posts"]);
+stm_ep();
+stm_ep();
+stm_em();
+//-->
+</script>
+    ]]>
+  </Content>
+</Module>
