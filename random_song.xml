@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Random Song Spotlight" />
+  <Content type="html">
+    <![CDATA[
+<script language="JavaScript">
+var Quotation=new Array() // do not change this!
+
+// Set up the quotations to be shown, below.
+// To add more quotations, continue with the
+// pattern, adding to the array.  Remember
+// to increment the Quotation[x] index!
+
+Quotation[0] = "<center><iframe src=http://home.comcast.net/~fjam2010/slim_player.swf?song_url=http://tinyurl.com/3arwswu&player_title=F-Jam%20Studios-Reggae&song_title=All%20In%20You-Europica></iframe></center>";
+Quotation[1] = "<center><iframe  src=http://home.comcast.net/~fjam2010/slim_player.swf?song_url=http://www.macjams.com/lab/music/67173.mp3&player_title=F-Jam%20Studios-Pop/Rock&song_title=The%20Top%20Of%20My%20Game-Freddy_N_Pete></iframe></center>";
+Quotation[2] =  "<center><iframe  src=http://tinyurl.com/3nxrflp></iframe></center>";
+Quotation[3] =  "<center><iframe  src=http://tinyurl.com/3p6ztzf></iframe></center>";
+Quotation[4] =  "<center><iframe  src=http://tinyurl.com/3zklm2s></iframe></center>";
+Quotation[5] =  "<center><iframe  src=http://tinyurl.com/3tpfz3d></iframe></center>";
+Quotation[6] =  "<center><iframe  src=http://tinyurl.com/3mur27q></iframe></center>";
+Quotation[7] =  "<center><iframe  src=http://tinyurl.com/3gvznhu></iframe></center>";
+Quotation[8] =  "<center><iframe  src=http://tinyurl.com/3fxlqz7></iframe></center>";
+Quotation[9] =  "<center><iframe  src=http://tinyurl.com/3z9hccj></iframe></center>";
+Quotation[10] =  "<center><iframe  src=http://tinyurl.com/3da9vny></iframe></center>";
+Quotation[11] =  "<center><iframe  src=http://tinyurl.com/3lavaye></iframe></center>";
+Quotation[12] =  "<center><iframe  src=http://tinyurl.com/3kl9ltv></iframe></center>";
+Quotation[13] =  "<center><iframe  src=http://tinyurl.com/3bycv39></iframe></center>";
+Quotation[14] =  "<center><iframe  src=http://tinyurl.com/3zznc6m></iframe></center>";
+Quotation[15] =  "<center><iframe  src=http://tinyurl.com/3gzmvyb></iframe></center>";
+Quotation[16] =  "<center><iframe  src=http://tinyurl.com/3orwkp3></iframe></center>";
+Quotation[17] =  "<center><iframe  src=http://tinyurl.com/3jlk7d3></iframe></center>";
+Quotation[18] =  "<center><iframe  src=http://tinyurl.com/3mbquku></iframe></center>";
+Quotation[19] =  "<center><iframe  src=http://tinyurl.com/3kkg9mk></iframe></center>";
+Quotation[20] =  "<center><iframe  src=http://tinyurl.com/3vzq4a2></iframe></center>";
+Quotation[21] =  "<center><iframe  src=http://tinyurl.com/3vp94vq></iframe></center>";
+Quotation[22] =  "<center><iframe  src=http://tinyurl.com/6x25z4e></iframe></center>";
+Quotation[22] =  "<center><iframe  src=http://tinyurl.com/3g8w2ue></iframe></center>";
+Quotation[23] =  "<center><iframe  src=http://tinyurl.com/42raav5></iframe></center>";
+Quotation[24] =  "<center><iframe  src=http://tinyurl.com/3nlykna></iframe></center>";
+Quotation[25] =  "<center><iframe  src=http://tinyurl.com/845l2nh></iframe></center>";
+Quotation[26] =  "<center><iframe  src=http://tinyurl.com/89pf9ht></iframe></center>";
+Quotation[27] =  "<center><iframe  src=http://tinyurl.com/3lxfhzb></iframe></center>";
+Quotation[28] =  "<center><iframe  src=http://tinyurl.com/3lzfjje></iframe></center>";
+Quotation[29] =  "<center><iframe  src=http://tinyurl.com/3fedzg4></iframe></center>";
+Quotation[30] =  "<center><iframe  src=http://tinyurl.com/429y5qk></iframe></center>";
+Quotation[31] =  "<center><iframe  src=http://tinyurl.com/3cvs9qx></iframe></center>";
+Quotation[32] =  "<center><iframe  src=http://tinyurl.com/3fkb9kn></iframe></center>";
+Quotation[33] =  "<center><iframe  src=http://tinyurl.com/3srpytq></iframe></center>";
+Quotation[34] =  "<center><iframe  src=http://tinyurl.com/3n3ma5p></iframe></center>";
+Quotation[35] =  "<center><iframe  src=http://tinyurl.com/3kbb4g6></iframe></center>";
+Quotation[36] =  "<center><iframe  src=http://tinyurl.com/3srj3kn></iframe></center>";
+Quotation[37] =  "<center><iframe  src=http://tinyurl.com/3zrhkcm></iframe></center>";
+Quotation[38] =  "<center><iframe  src=http://tinyurl.com/3ftgbyc></iframe></center>";
+Quotation[39] =  "<center><iframe  src=http://tinyurl.com/7d5x2ra></iframe></center>";
+Quotation[40] =  "<center><iframe  src=http://tinyurl.com/3f7v5ld></iframe></center>";
+Quotation[41] =  "<center><iframe  src=http://tinyurl.com/42fxhkl></iframe></center>";
+Quotation[42] =  "<center><iframe  src=http://tinyurl.com/7l25db5></iframe></center>";
+Quotation[43] =  "<center><iframe  src=http://tinyurl.com/7rtxkxl></iframe></center>";
+Quotation[44] =  "<center><iframe  src=http://tinyurl.com/73ry29v></iframe></center>";
+Quotation[45] =  "<center><iframe  src=http://tinyurl.com/6po3sz8></iframe></center>";
+Quotation[46] =  "<center><iframe  src=http://tinyurl.com/7m7uw68></iframe></center>";
+Quotation[47] =  "<center><iframe  src=http://tinyurl.com/7za3xvj></iframe></center>";
+Quotation[48] =  "<center><iframe  src=http://tinyurl.com/6ojsun2></iframe></center>";
+Quotation[49] =  "<center><iframe  src=http://tinyurl.com/7m42kvu></iframe></center>";
+Quotation[50] =  "<center><iframe  src=http://tinyurl.com/7vhh8lf></iframe></center>";
+Quotation[51] =  "<center><iframe  src=http://tinyurl.com/7pkpn53></iframe></center>";
+Quotation[52] =  "<center><iframe  src=http://tinyurl.com/7f8ekeu></iframe></center>";
+Quotation[53] =  "<center><iframe  src=http://tinyurl.com/84ojn95></iframe></center>";
+Quotation[54] =  "<center><iframe  src=http://tinyurl.com/6o76luu></iframe></center>";
+Quotation[55] =  "<center><iframe  src=http://tinyurl.com/6o6mmqz></iframe></center>";
+Quotation[56] =  "<center><iframe  src=http://tinyurl.com/6ms7xzh></iframe></center>"; 
+Quotation[57] =  "<center><iframe  src=http://tinyurl.com/7k7ppak></iframe></center>"; 
+Quotation[58] =  "<center><iframe  src=http://tinyurl.com/7uut9mj></iframe></center>"; 
+Quotation[59] =  "<center><iframe  src=http://tinyurl.com/6tra7tu></iframe></center>"; 
+Quotation[60] =  "<center><iframe  src=http://tinyurl.com/7pooozx></iframe></center>"; 
+Quotation[61] =  "<center><iframe  src=http://tinyurl.com/7eax999></iframe></center>";
+Quotation[62] =  "<center><iframe  src=http://tinyurl.com/7g8224j></iframe></center>";
+Quotation[63] =  "<center><iframe  src=http://tinyurl.com/czzqb7a></iframe></center>";
+Quotation[64] =  "<center><iframe  src=http://tinyurl.com/bnd9mh7></iframe></center>";
+Quotation[65] =  "<center><iframe  src=http://tinyurl.com/d4sthfs></iframe></center>";
+Quotation[66] =  "<center><iframe  src=http://tinyurl.com/72gcbzk></iframe></center>";
+Quotation[67] =  "<center><iframe  src=http://tinyurl.com/6op9ks6></iframe></center>"; 
+Quotation[68] =  "<center><iframe  src=http://tinyurl.com/d2rdnzm></iframe></center>";
+Quotation[69] =  "<center><iframe  src=http://tinyurl.com/7bgdqol></iframe></center>";
+Quotation[70] =  "<center><iframe  src=http://tinyurl.com/7sjewgql></iframe></center>";
+Quotation[71] =  "<center><iframe  src=http://tinyurl.com/d7mutx9></iframe></center>";
+Quotation[72] =  "<center><iframe  src=http://tinyurl.com/84wocyt></iframe></center>";     
+Quotation[73] =  "<center><iframe  src=http://tinyurl.com/88bd6jd></iframe></center>";
+Quotation[74] =  "<center><iframe  src=http://tinyurl.com/7l35em6></iframe></center>";
+Quotation[75] =  "<center><iframe  src=http://tinyurl.com/7877377></iframe></center>";
+Quotation[76] =  "<center><iframe  src=http://tinyurl.com/74cyprz></iframe></center>";
+Quotation[77] =  "<center><iframe  src=http://tinyurl.com/cwnyj82></iframe></center>";
+Quotation[78] =  "<center><iframe  src=http://tinyurl.com/cjoy3hl></iframe></center>";
+Quotation[79] =  "<center><iframe  src=http://tinyurl.com/c9bb3b8></iframe></center>";
+Quotation[80] =  "<center><iframe  src=http://tinyurl.com/crenzx3></iframe></center>";
+Quotation[81] =  "<center><iframe  src=http://tinyurl.com/c569k58></iframe></center>";
+Quotation[82] =  "<center><iframe  src=http://tinyurl.com/8oxsoo5></iframe></center>";
+Quotation[83] =  "<center><iframe  src=http://tinyurl.com/93k9mrf></iframe></center>";
+Quotation[84] =  "<center><iframe  src=http://tinyurl.com/cmo9wsa></iframe></center>";
+Quotation[85] =  "<center><iframe  src=http://tinyurl.com/9cbdhn4></iframe></center>";    
+Quotation[86] =  "<center><iframe  src=http://tinyurl.com/9u2krcy></iframe></center>";
+Quotation[87] =  "<center><iframe  src=http://tinyurl.com/9sx6gtt></iframe></center>";
+Quotation[88] =  "<center><iframe  src=http://tinyurl.com/943glt3></iframe></center>"; 
+Quotation[89] =  "<center><iframe  src=http://tinyurl.com/9bgpgy7></iframe></center>";
+Quotation[90] =  "<center><iframe  src=http://tinyurl.com/ae2ph7z></iframe></center>";
+Quotation[91] =  "<center><iframe  src=http://tinyurl.com/bh8wyl3></iframe></center>";
+Quotation[92] =  "<center><iframe  src=http://tinyurl.com/cfzamzu></iframe></center>";
+Quotation[93] =  "<center><iframe  src=http://tinyurl.com/8fhs92a></iframe></center>";
+Quotation[94] =  "<center><iframe  src=http://tinyurl.com/cs8s4mn></iframe></center>";
+Quotation[95] =  "<center><iframe  src=http://tinyurl.com/cq8jwj9></iframe></center>";
+Quotation[96] =  "<center><iframe  src=http://tinyurl.com/cnp2p6x></iframe></center>";
+Quotation[97] =  "<center><iframe  src=http://tinyurl.com/btv43ab></iframe></center>";
+Quotation[98] =  "<center><iframe  src=http://tinyurl.com/crqo4as></iframe></center>";
+Quotation[99] =  "<center><iframe  src=http://tinyurl.com/cjd3j9o></iframe></center>";
+
+ 
+// ======================================
+// Do not change anything below this line
+// ======================================
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+function showQuotation(){document.write(Quotation[whichQuotation]);}
+showQuotation();
+</script>
+    ]]>
+  </Content>
+</Module>
