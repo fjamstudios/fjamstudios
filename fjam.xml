@@ -48,7 +48,7 @@ stm_aix("p5i1","p1i0",[0,"Jukebox","","",-1,-1,0,"https://sites.google.com/site/
 stm_aix("p5i2","p1i0",[0,"Favorites","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/favorites","_top","","These are some of our favorite tunes done by artists we know."]);
 stm_aix("p5i3","p1i0",[0,"Online Bands","","",-1,-1,0,"","_self","","","","",5,5,0,"arrow_r.gif","arrow_r.gif",7,7]);
 stm_bpx("p6","p1",[1,2]);
-stm_aix("p6i0","p1i0",[0,"FLY","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/discussions/officialflybandpage","_top","","Freddy, Laura, and Yves are FLY!"]);
+stm_aix("p6i0","p1i0",[0,"FLY","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/official-fly-band-page","_top","","Freddy, Laura, and Yves are FLY!"]);
 stm_aix("p6i1","p1i0",[0,"Curtain Call","","",-1,-1,0,"","_self","",""]);
 stm_ep();
 stm_ep();
