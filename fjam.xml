@@ -48,8 +48,8 @@ stm_aix("p5i1","p1i0",[0,"Jukebox","","",-1,-1,0,"https://sites.google.com/site/
 stm_aix("p5i2","p1i0",[0,"Favorites","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/favorites","_top","","These are some of our favorite tunes done by artists we know."]);
 stm_aix("p5i3","p1i0",[0,"Online Bands","","",-1,-1,0,"","_self","","","","",5,5,0,"arrow_r.gif","arrow_r.gif",7,7]);
 stm_bpx("p6","p1",[1,2]);
-stm_aix("p6i0","p1i0",[0,"FLY","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/official-fly-band-page","_top","","Freddy, Laura, and Yves are FLY!"]);
-stm_aix("p6i1","p1i0",[0,"Curtain Call","","",-1,-1,0,"","_self","",""]);
+stm_aix("p6i0","p1i0",[0,"FLY","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/discussions/officialflybandpage","_top","","Freddy, Laura, and Yves are FLY!"]);
+stm_aix("p6i1","p1i0",[0,"Curtain Call","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/official-curtain-call-page","_top","","Official Page For Curtain Call"]);
 stm_ep();
 stm_ep();
 stm_aix("p0i7","p0i1",[0,"Artwork","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/home/artwork","_top","","Pictures, and animations archive!","","",5,5,0,"","",0,0,0,1,1,"#66CCCC",0,"#66CCCC",0,"","",3,1,0,0,"#FFFFF7","#000000","#FFFF66"]);
@@ -74,7 +74,7 @@ stm_ep();
 stm_sc(1,["transparent","transparent","","",3,3,0,0,"#FFFFF7","#000000","up_disabled.gif","up_enabled.gif",7,9,0,"down_disabled.gif","down_enabled.gif",7,9,0,0,200]);
 stm_em();
 //-->
-</script> <br /><center><marquee direction="right" width="63" height="19"><b>&gt;&gt;&gt;&gt;&gt;&gt;</b></marquee>
+</script><br /><center><marquee direction="right" width="63" height="19"><b>&gt;&gt;&gt;&gt;&gt;&gt;</b></marquee>
 <b>Hold your cursor over the menu above</b><marquee width="63" height="19"><b>&lt;&lt;&lt;&lt;&lt;&lt;</b></marquee></center>
     ]]>
   </Content>
