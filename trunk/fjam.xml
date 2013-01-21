@@ -50,6 +50,7 @@ stm_aix("p5i3","p1i0",[0,"Online Bands","","",-1,-1,0,"","_self","","","","",5,5
 stm_bpx("p6","p1",[1,2]);
 stm_aix("p6i0","p1i0",[0,"FLY","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/official-fly-band-page","_top","","Freddy, Laura, and Yves are FLY!"]);
 stm_aix("p6i1","p1i0",[0,"Curtain Call","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/official-curtain-call-page","_top","","Official Page For Curtain Call"]);
+stm_aix("p6i2","p1i0",[0,"The Avalanche (Rock Opera Project)","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/rock-opera-project","_top","","Written and produced by Yves Baar (Symphony 101)"]);
 stm_ep();
 stm_ep();
 stm_aix("p0i7","p0i1",[0,"Artwork","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/home/artwork","_top","","Pictures, and animations archive!","","",5,5,0,"","",0,0,0,1,1,"#66CCCC",0,"#66CCCC",0,"","",3,1,0,0,"#FFFFF7","#000000","#FFFF66"]);
