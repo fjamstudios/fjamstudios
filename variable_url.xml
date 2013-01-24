@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      <script>
+function redirectWithSelectedTabUrl(link) {
+  chrome.tabs.getSelected(null, function (tab) {
+    window.location.href = tab.url
+        ? link.href + "?status=" + encodeURIComponent(tab.url)
+        : link.href;
+  };
+  return false;
+}
+</script>
+<a href="http://twitter.com/" onclick="return redirectWithSelectedTabUrl(this)">...</a>
+    ]]>
+  </Content>
+</Module>
