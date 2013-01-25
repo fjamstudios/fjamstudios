@@ -3,17 +3,18 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-      <script>
-function redirectWithSelectedTabUrl(link) {
-  chrome.tabs.getSelected(null, function (tab) {
-    window.location.href = tab.url
-        ? link.href + "?status=" + encodeURIComponent(tab.url)
-        : link.href;
-  };
-  return false;
-}
-</script>
-<a href="http://twitter.com/" onclick="return redirectWithSelectedTabUrl(this)">...</a>
-    ]]>
+      <!DOCTYPE html>
+<html>
+<body>
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="http://ge.tt/api/1/files/6jJPIfV/0/blob?download" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
+
   </Content>
 </Module>
