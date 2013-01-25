@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      <audio controls>
+  <source src="http://ge.tt/api/1/files/6jJPIfV/0/blob?download" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+    ]]>
+  </Content>
+</Module>
