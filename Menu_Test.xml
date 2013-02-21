@@ -3,7 +3,17 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-      <ul id="MenuBar1" class="MenuBarHorizontal">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="file:///C|/Users/Fred/AppData/Roaming/Adobe/Dreamweaver CS6/en_US/Configuration/Temp/Assets/eam16DF.tmp/SpryMenuBar.js" type="text/javascript"></script>
+<link href="file:///C|/Users/Fred/AppData/Roaming/Adobe/Dreamweaver CS6/en_US/Configuration/Temp/Assets/eam16DF.tmp/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<ul id="MenuBar1" class="MenuBarHorizontal">
   <li>HOME
     <ul>
       <li><a href="#">Item 1.1</a></li>
@@ -29,6 +39,8 @@
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
+</body>
+</html>
     ]]>
   </Content>
 </Module>
