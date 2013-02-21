@@ -3,230 +3,32 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-      <table width="100%" border="1">
-  <tr>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
+      <ul id="MenuBar1" class="MenuBarHorizontal">
+  <li>HOME
+    <ul>
+      <li><a href="#">Item 1.1</a></li>
+      <li><a href="#">Item 1.2</a></li>
+      <li><a href="#">Item 1.3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Item 2</a></li>
+  <li><a class="MenuBarItemSubmenu" href="#">Item 3</a>
+    <ul>
+      <li><a class="MenuBarItemSubmenu" href="#">Item 3.1</a>
+        <ul>
+          <li><a href="#">Item 3.1.1</a></li>
+          <li><a href="#">Item 3.1.2</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Item 3.2</a></li>
+      <li><a href="#">Item 3.3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Item 4</a></li>
+</ul>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-    <td><script language="javascript" type="text/javascript" >
-function jumpto(x){
-
-if (document.form1.jumpmenu.value != "null") {
-	document.location.href = x
-	}
-}
-</script>
-<form name="form1">
-<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
-<option>Jump to...</option>
-<option value=javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)>A-F</option>
-<option value=http://www.quackit.com/javascript/>JavaScript</option>
-<option value=http://www.quackit.com/html/>HTML</option>
-<option value=http://www.quackit.com/css/>CSS</option>
-<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
-<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
-<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
-</select>
-</form></td>
-  </tr>
-</table>
     ]]>
   </Content>
 </Module>
