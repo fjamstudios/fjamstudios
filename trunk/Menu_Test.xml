@@ -11,7 +11,7 @@ if (document.form1.jumpmenu.value != "null") {
 	}
 }
 </script>
-<table width="800" border="0">
+<table width="100%" border="1">
   <tr>
     <td><form name="form1">
 <select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
