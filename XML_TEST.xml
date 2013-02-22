@@ -3,15 +3,35 @@
   <ModulePrefs title="XML_Menu" />
   <Content type="html">
     <![CDATA[
-      <?xml version="1.0" encoding="utf-8"?>
-<menuinfo>
-   <menu>
-      <item url="http://fjam.zapto.org" target="_top" lbTxt="HOME"/>
-      <menu url="#" lbTxt="Members">
-            <item url="https://sites.google.com/site/fjamages/a-f" target="_blank" lbTxt="A-F"/>
-      </menu>
-   </menu>
-</menuinfo>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<title>Your PURE CSS Menu</title>
+
+<!-- Start required PURE CSS Menu Maker markup for head tag -->
+<link href="http://www.fjamstudios.byethost5.com/xml_menu/cm-style.css" rel="stylesheet" type="text/css">
+<!-- End required PURE CSS Menu Maker markup for head tag -->
+
+</head>
+
+<body style="background:#8BABB0">
+
+<!-- Start required PURE CSS Menu Maker markup for body tag -->
+<ul id="cm-nav">
+   <li><a href="http://fjam.zapto.org" target="_top">HOME</a></li>
+   <li><a href="#" class="arrow no-click">Members</a>
+      <ul>
+         <li><a href="https://sites.google.com/site/fjamages/a-f" target="_blank">A-F</a></li>
+      </ul>
+   </li>
+</ul>
+<!-- End required PURE CSS Menu Maker markup for body tag -->
+
+</body>
+
+</html>
     ]]>
   </Content>
 </Module>
