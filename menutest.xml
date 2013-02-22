@@ -8,7 +8,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Untitled Page</title>
-<meta name="generator" content="WYSIWYG Web Builder 8 - http://www.wysiwygwebbuilder.com">
+<meta name="generator" content="">
 <style type="text/css">
 body
 {
@@ -159,6 +159,10 @@ div.ThemeMenuBar1MenuSplit
 <li><span></span><span>Members</span>
 <ul>
 <li><span></span><a href="http://sites.google.com/site/fjamages/a-f" target="_blank">A-F</a>
+</li>
+</ul>
+<ul>
+<li><span></span><a href="javascript:window.open("http://sites.google.com/site/fjamages/g-l","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)" target="_blank">G-L</a>
 </li>
 </ul>
 </li>
