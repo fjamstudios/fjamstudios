@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="XML_Menu" />
+  <Content type="html">
+    <![CDATA[
+      <?xml version="1.0" encoding="utf-8"?>
+<menuinfo>
+   <menu>
+      <item url="http://fjam.zapto.org" target="_top" lbTxt="HOME"/>
+      <menu url="#" lbTxt="Members">
+            <item url="https://sites.google.com/site/fjamages/a-f" target="_blank" lbTxt="A-F"/>
+      </menu>
+   </menu>
+</menuinfo>
+    ]]>
+  </Content>
+</Module>
