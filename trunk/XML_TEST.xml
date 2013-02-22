@@ -11,7 +11,7 @@
 <title>Your PURE CSS Menu</title>
 
 <!-- Start required PURE CSS Menu Maker markup for head tag -->
-<link href="http://www.fjamstudios.byethost5.com/xml_menu/cm-style.css" rel="stylesheet" type="text/css">
+<link href="www.fjamstudios.byethost5.com/xml_menu/cm-style.css" rel="stylesheet" type="text/css">
 <!-- End required PURE CSS Menu Maker markup for head tag -->
 
 </head>
@@ -19,14 +19,63 @@
 <body style="background:#8BABB0">
 
 <!-- Start required PURE CSS Menu Maker markup for body tag -->
+<div style="display: table; margin-left: auto; margin-right: auto">
 <ul id="cm-nav">
    <li><a href="http://fjam.zapto.org" target="_top">HOME</a></li>
    <li><a href="#" class="arrow no-click">Members</a>
       <ul>
          <li><a href="https://sites.google.com/site/fjamages/a-f" target="_blank">A-F</a></li>
+         <li><a href="https://sites.google.com/site/fjamages/g-l" target="_blank">G-L</a></li>
+         <li><a href="https://sites.google.com/site/fjamages/m-r" target="_blank">M-R</a></li>
+         <li><a href="https://sites.google.com/site/fjamages/s-z" target="_blank">S-Z</a></li>
       </ul>
    </li>
+   <li><a href="#" class="arrow no-click">Talent</a>
+      <ul>
+         <li><a href="https://sites.google.com/site/fjampages/submit-talent-profile" target="_blank">Post Your Talent Profile</a></li>
+         <li><a href="https://sites.google.com/site/fjatestsite/talent-profiles" target="_top">Talent Listing</a></li>
+      </ul>
+   </li>
+   <li><a href="https://sites.google.com/site/fjatestsite/system/app/pages/createPage?source=/home" target="_top">Start A New Project</a></li>
+   <li><a href="#" class="arrow no-click">HELP</a>
+      <ul>
+         <li><a href="https://sites.google.com/site/fjatestsite/help" target="_top">Go To Help Page</a></li>
+         <li><a href="http://www.tfaforms.com/188611" target="_blank">Contact Admin</a></li>
+      </ul>
+   </li>
+   <li><a href="#" class="arrow no-click">Lyrics</a>
+      <ul>
+         <li><a href="https://sites.google.com/site/fjatestsite/home/lyrics" target="_top">Open Lyrics Archive</a></li>
+      </ul>
+   </li>
+   <li><a href="#" class="arrow no-click">Finished Tracks</a>
+      <ul class="arrow-pad">
+         <li><a href="https://sites.google.com/site/fjatestsite/finished-tracks-jukebox" target="_top">Jukebox</a></li>
+         <li><a href="https://sites.google.com/site/fjatestsite/favorites" target="_top">Favorites</a></li>
+         <li><a href="#" class="arrow no-click">Online Bands</a>
+            <ul>
+               <li><a href="https://sites.google.com/site/fjatestsite/official-fly-band-page" target="_top">FLY</a></li>
+               <li><a href="https://sites.google.com/site/fjatestsite/official-curtain-call-page" target="_top">Curtain Call</a></li>
+               <li><a href="https://sites.google.com/site/fjatestsite/rock-opera-project" target="_top">The Avalanche (Rock Opera)</a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="https://sites.google.com/site/fjatestsite/home/artwork" target="_top">Artwork</a></li>
+   <li><a href="https://sites.google.com/site/fjatestsite/discussions" target="_top">Forums</a></li>
+   <li><a href="https://sites.google.com/site/fjatestsite/f-jam-news" target="_top">Site News</a></li>
+   <li><a href="#" class="arrow no-click">Login</a>
+      <ul class="arrow-pad">
+         <li><a href="https://sites.google.com/" target="_top" class="arrow">Login To F-Jam Studios</a>
+            <ul>
+               <li><a href="https://sites.google.com/" target="_top">Login HELP</a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href="https://sites.google.com/site/fjatestsite/join-f-jam-studios" target="_blank">Join F-Jam</a></li>
 </ul>
+</div>
 <!-- End required PURE CSS Menu Maker markup for body tag -->
 
 </body>
