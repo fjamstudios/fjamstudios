@@ -14,7 +14,7 @@ if (document.form1.jumpmenu.value != "null") {
 <form name="form1">
 <select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
 <option>Jump to...</option>
-<option value="http://fjam.zapto.org" target="_top">Home</option>
+<option value="javascript:window.open("http://sites.google.com/site/fjamages/a-f","_blank","width=400,height=600,status=no,scrollbars=yes,");void(0);void(0);void(0);void(0)">Home</option>
 <option value=http://www.quackit.com/javascript/>JavaScript</option>
 <option value=http://www.quackit.com/html/>HTML</option>
 <option value=http://www.quackit.com/css/>CSS</option>
