@@ -4,18 +4,6 @@
   <Content type="html">
     <![CDATA[
       <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Untitled Page</title>
-<meta name="generator" content="">
-<style type="text/css">
-body
-{
-   background-color: #FFFFFF;
-   color: #000000;
-}
-</style>
 <script type="text/javascript" src="https://fjamstudios.googlecode.com/svn/trunk/jscookmenu.min.js"></script>
 <style type="text/css">
 a
@@ -189,9 +177,6 @@ var cmThemeMenuBar1MainVSplit = [_cmNoClick, '<div class="ThemeMenuBar1MenuVSpli
 cmDrawFromText('MenuBar1', 'hbr', cmMenuBar1, 'ThemeMenuBar1');
 -->
 </script>
-</div>
-</body>
-</html>
 
     ]]>
   </Content>
