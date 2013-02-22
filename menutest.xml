@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Main Menu"/>
+  <Content type="html">
+    <![CDATA[
+      <script language="javascript" type="text/javascript" >
+function jumpto(x){
+
+if (document.form1.jumpmenu.value != "null") {
+	document.location.href = x
+	}
+}
+</script>
+<form name="form1">
+<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
+<option>Jump to...</option>
+<option value="http://fjam.zapto.org" target="_top">Home</option>
+<option value=http://www.quackit.com/javascript/>JavaScript</option>
+<option value=http://www.quackit.com/html/>HTML</option>
+<option value=http://www.quackit.com/css/>CSS</option>
+<option value=http://www.quackit.com/sql/tutorial/>SQL</option>
+<option value=http://www.quackit.com/database/tutorial/>Database Tutorial</option>
+<option value=http://www.quackit.com/web_hosting/>Web Hosting Tutorial</option>
+</select>
+</form>
+]]>
+  </Content>
+</Module>
