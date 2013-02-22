@@ -154,7 +154,7 @@ div.ThemeMenuBar1MenuSplit
 <div id="wb_MenuBar1" style="position:absolute;left:120px;top:88px;width:230px;height:40px;z-index:1000;">
 <div id="MenuBar1">
 <ul style="display:none;">
-<li><span></span><a href="http://fjam.zapto.org" target="_self">HOME</a>
+<li><span></span><a href="http://fjam.zapto.org" target="_top">HOME</a>
 </li>
 <li><span></span><span>Members</span>
 <ul>
