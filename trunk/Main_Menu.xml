@@ -3,7 +3,7 @@
   <ModulePrefs title="XML_Menu" />
   <Content type="html">
     <![CDATA[
-<iframe src=http://www.fjamstudios.byethost5.com/xml_menu/></iframe>
+<iframe name="iwindow" style="border:0px outset " scrolling=no width=100% height=200 align=middle frameborder=0 src="http://www.fjamstudios.byethost5.com/xml_menu/"></iframe>
     ]]>
   </Content>
 </Module>
