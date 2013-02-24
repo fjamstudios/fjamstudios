@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Genres Menu" />
+  <Content type="html">
+    <![CDATA[
+      <iframe src=http://www.fjamstudios.byethost5.com/Genre_Menu/><iframe>
+    ]]>
+  </Content>
+</Module>
