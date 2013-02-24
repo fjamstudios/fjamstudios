@@ -3,7 +3,7 @@
   <ModulePrefs title="Genres Menu" />
   <Content type="html">
     <![CDATA[
-<iframe name="iwindow" style="border:0px outset " scrolling=no width=450 height=800 align=middle frameborder=0 src="http://www.fjamstudios.byethost5.com/Genre_Menu/"></iframe>
+<center><iframe name="iwindow" style="border:0px outset " scrolling=no width=450 height=800 align=middle frameborder=0 src="http://www.fjamstudios.byethost5.com/Genre_Menu/"></iframe></center>
     ]]>
   </Content>
 </Module>
