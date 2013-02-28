@@ -3,11 +3,7 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-      <?xml version="1.0" encoding="UTF-8" ?> 
-<Module>
-  <ModulePrefs title="remote content example" />
-  <Content type="url" href="http://www.fjamstudios.byethost5.com/Genre_Menu/" />
-</Module>
+      <iframe src="http://www.fjamstudios.byethost5.com/Genre_Menu/"><iframe>
     ]]>
   </Content>
 </Module>
