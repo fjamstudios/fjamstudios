@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Alt. Main Menu" />
+  <Content type="html">
+    <![CDATA[
+      <iframe name="iwindow" style="border:0px dotted purple" scrolling=no width=100% height=165 align=middle frameborder=0 src="http://fjamstudios.allalla.com/New_Flash_Menu/F-Jam_Flash.swf"></iframe>
+    ]]>
+  </Content>
+</Module>
