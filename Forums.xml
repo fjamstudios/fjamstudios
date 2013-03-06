@@ -22,6 +22,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 </script><select name="EXTRAS" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
 <option value="" selected>EXTRAS</option>
 <option value="https://sites.google.com/site/fjatestsite/useful-links">Useful Links</option>
+<option value="https://sites.google.com/site/fjatestsite/help/mp3playertemplate">MP3 Player</option>
   </select>
     ]]>
   </Content>
