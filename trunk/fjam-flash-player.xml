@@ -76,9 +76,9 @@ else
 var s_ski=_trim(prefs.getString("SKIN"));
 
 if (s_ski == 'Gray - Black')
-{s_ski='http://dl.dropbox.com/u/13750516/odeo-black.swf';}  
+{s_ski='http://fjamstudios.allalla.com/odeo-black.swf';}  
 else
-{s_ski='http://dl.dropbox.com/u/13750516/odeo-pink.swf';}
+{s_ski='http://fjamstudios.allalla.com/odeo-pink.swf';}
   
 var sfv =  apl + "&valid_sample_rate=true&external_url=" + s_fil;
 
