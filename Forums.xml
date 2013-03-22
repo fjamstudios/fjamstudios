@@ -23,7 +23,6 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="" selected>EXTRAS</option>
 <option value="https://sites.google.com/site/fjatestsite/useful-links">Useful Links</option>
 <option value="https://sites.google.com/site/fjatestsite/help/mp3playertemplate">MP3 Player</option>
-<option value="javascript:window.open("https://sites.google.com/site/fjampages/add-graphics","_blank","width=275,height=400,status=yes,scrollbars=no,");void(0);void(0);void(0)">TEST</option>
   </select>
     ]]>
   </Content>
