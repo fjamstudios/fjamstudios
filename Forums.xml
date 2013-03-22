@@ -23,9 +23,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="" selected>EXTRAS</option>
 <option value="https://sites.google.com/site/fjatestsite/useful-links">Useful Links</option>
 <option value="https://sites.google.com/site/fjatestsite/help/mp3playertemplate">MP3 Player</option>
-<FORM>
-<INPUT type="button" value="New Window!" onClick="window.open('http://www.pageresource.com/jscript/jex5.htm','mywindow','width=400,height=200')">
-</FORM> 
+<option value="window.open('http://www.pageresource.com/jscript/jex5.htm','mywindow','width=400,height=200'">TEST</option>
   </select>
     ]]>
   </Content>
