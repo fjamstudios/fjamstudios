@@ -5,7 +5,7 @@
     <![CDATA[
 <center>    <FORM>
 <INPUT type="button" value="Graphics!" onClick="window.open('http://www.pageresource.com/jscript/jex5.htm','mywindow','width=400,height=200')">
-</FORM></center><br>      
+</FORM></center>     
 <script language="JavaScript" type="text/JavaScript">
 <!--
 function HDD_Menu(targetpage,selected){
