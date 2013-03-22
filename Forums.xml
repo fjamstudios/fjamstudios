@@ -4,7 +4,7 @@
   <Content type="html">
     <![CDATA[
 <center>    <FORM>
-<INPUT type="button" value="GRAHPICS" onClick="window.open('http://www.pageresource.com/jscript/jex5.htm','mywindow','width=400,height=200')">
+<INPUT type="button" value="Add Smilies/graphics" onClick="window.open('https://sites.google.com/site/fjampages/add-graphics','addgraphics','width=400,height=200')">
 </FORM></center>     
 <script language="JavaScript" type="text/JavaScript">
 <!--
