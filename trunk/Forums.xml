@@ -3,7 +3,10 @@
   <ModulePrefs title="Forums" />
   <Content type="html">
     <![CDATA[
-      <script language="JavaScript" type="text/JavaScript">
+<center>    <FORM>
+<INPUT type="button" value="Graphics!" onClick="window.open('http://www.pageresource.com/jscript/jex5.htm','mywindow','width=400,height=200')">
+</FORM></center><br>      
+<script language="JavaScript" type="text/JavaScript">
 <!--
 function HDD_Menu(targetpage,selected){
 if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".location='"+selected.options[selected.selectedIndex].value+"'");}}
