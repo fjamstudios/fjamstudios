@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      <!-- FORM: HEAD SECTION -->
+	<link href="http://www.tfaforms.com/wForms/3.4/css/blank/wforms.css" rel="stylesheet" type="text/css"></link>
+	<link href="http://www.tfaforms.com/wForms/3.4/css/wforms-jsonly.css" rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link type="text/css" rel="stylesheet" href="http://www.tfaforms.com/css/form.css" />
+    <link href="http://www.tfaforms.com/wForms/3.4/css/wforms-layout.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 8]>
+    <link href="http://www.tfaforms.com/wForms/3.4/css/wforms-layout-ie8.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link href="http://www.tfaforms.com/wForms/3.4/css/wforms-layout-ie7.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if IE 6]>
+    <link href="http://www.tfaforms.com/wForms/3.4/css/wforms-layout-ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+
+
+<script type="text/javascript" src="http://www.tfaforms.com/wForms/3.4/js/wforms.js"></script>
+    <script type="text/javascript" src="http://www.tfaforms.com/wForms/3.4/js/wforms_custom_validation.js"></script>
+<script type="text/javascript" src="http://www.tfaforms.com/wForms/3.4/js/localization-en.js"></script>
+
+<script type="text/javascript" src="http://www.tfaforms.com/wForms/3.4/js/wforms_prefill.js"></script>
+
+
+
+<style type="text/css">
+</style>
+
+<!-- FORM: BODY SECTION -->
+<div class="wFormContainer"  >
+
+  <div class="wForm wFormWidth"><form method="post" action="http://www.tfaforms.com/responses/processor" id="id2713788" class="labelsLeftAligned hintsSide">
+<div class="htmlsection" id="html-tmp-7561468407889"><img style="width: 335px; height: 56px" src="http://app.formassembly.com/forms/get_image/5230/f-copy.jpg" alt="" width="335" height="56"></div>
+<div id="tfa_Pleasegiveavalid-D" class="oneField">
+<label class="preField" for="tfa_Pleasegiveavalid">Please give a valid e-mail that you use to connect to google (will not be shown directly on F-Jam, and we don't sell e-mail addresses). <span class="reqMark">*</span></label> <input type="text" id="tfa_Pleasegiveavalid" name="tfa_Pleasegiveavalid" value="" size="40" class="validate-email required"> <br><span class="errMsg" id="tfa_Pleasegiveavalid-E"> </span>
+</div>
+<div id="tfa_Pleasetellusthen-D" class="oneField">
+<label class="preField" for="tfa_Pleasetellusthen">Please tell us the nickname you use on F-Jam. <span class="reqMark">*</span></label> <input type="text" id="tfa_Pleasetellusthen" name="tfa_Pleasetellusthen" value="" size="40" class="required"> <br><span class="errMsg" id="tfa_Pleasetellusthen-E"> </span>
+</div>
+<div id="tfa_Pleaselistyourta-D" class="oneField">
+<label class="preField">Please list your talents.
+ <span class="reqMark">*</span></label> <span class="required"><span id="tfa_Pleaselistyourta" class="choices"><span class="oneChoice"><input type="checkbox" value="tfa_AudioEditor" class="" id="tfa_AudioEditor" name="tfa_AudioEditor"><label for="tfa_AudioEditor" class="postField">Audio Editor</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Arranger" class="" id="tfa_Arranger" name="tfa_Arranger"><label for="tfa_Arranger" class="postField">Arranger</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Bass" class="" id="tfa_Bass" name="tfa_Bass"><label for="tfa_Bass" class="postField">Bass</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Drums" class="" id="tfa_Drums" name="tfa_Drums"><label for="tfa_Drums" class="postField">Drums </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Flute" class="" id="tfa_Flute" name="tfa_Flute"><label for="tfa_Flute" class="postField">Flute</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Guitar" class="" id="tfa_Guitar" name="tfa_Guitar"><label for="tfa_Guitar" class="postField">Guitar </label></span><span class="oneChoice"><input type="checkbox" value="tfa_GraphicArtist" class="" id="tfa_GraphicArtist" name="tfa_GraphicArtist"><label for="tfa_GraphicArtist" class="postField">Graphic Artist</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Harmonica" class="" id="tfa_Harmonica" name="tfa_Harmonica"><label for="tfa_Harmonica" class="postField">Harmonica</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Horns" class="" id="tfa_Horns" name="tfa_Horns"><label for="tfa_Horns" class="postField">Horns</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Keyboards" class="" id="tfa_Keyboards" name="tfa_Keyboards"><label for="tfa_Keyboards" class="postField">Keyboards</label></span><span class="oneChoice"><input type="checkbox" value="tfa_MixMasterEnginee" class="" id="tfa_MixMasterEnginee" name="tfa_MixMasterEnginee"><label for="tfa_MixMasterEnginee" class="postField">Mix/Master Engineer</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Orchestral" class="" id="tfa_Orchestral" name="tfa_Orchestral"><label for="tfa_Orchestral" class="postField">Orchestral</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Percussion" class="" id="tfa_Percussion" name="tfa_Percussion"><label for="tfa_Percussion" class="postField">Percussion</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Producer" class="" id="tfa_Producer" name="tfa_Producer"><label for="tfa_Producer" class="postField">Producer</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Programmer" class="" id="tfa_Programmer" name="tfa_Programmer"><label for="tfa_Programmer" class="postField">Programmer</label></span><span class="oneChoice"><input type="checkbox" value="tfa_SoundEffects" class="" id="tfa_SoundEffects" name="tfa_SoundEffects"><label for="tfa_SoundEffects" class="postField">Sound Effects</label></span><span class="oneChoice"><input type="checkbox" value="tfa_StudioSite" class="" id="tfa_StudioSite" name="tfa_StudioSite"><label for="tfa_StudioSite" class="postField">Studio Site</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Vocals" class="" id="tfa_Vocals" name="tfa_Vocals"><label for="tfa_Vocals" class="postField">Vocals</label></span><span class="oneChoice"><input type="checkbox" value="tfa_VideoEditor" class="" id="tfa_VideoEditor" name="tfa_VideoEditor"><label for="tfa_VideoEditor" class="postField">Video Editor</label></span><span class="oneChoice"><input type="checkbox" value="tfa_WriterLyrics" class="" id="tfa_WriterLyrics" name="tfa_WriterLyrics"><label for="tfa_WriterLyrics" class="postField">Writer Lyrics</label></span><span class="oneChoice"><input type="checkbox" value="tfa_WriterMusic" class="" id="tfa_WriterMusic" name="tfa_WriterMusic"><label for="tfa_WriterMusic" class="postField">Writer Music </label></span></span></span> <div class="field-hint-inactive" id="tfa_Pleaselistyourta-H"><span>Tells us what your talents are.</span></div>
+<br><span class="errMsg" id="tfa_Pleaselistyourta-E"> </span>
+</div>
+<div id="tfa_Pleaseindicatewh-D" class="oneField">
+<label class="preField">Please indicate which genres you prefer to work in. <span class="reqMark">*</span></label> <span class="required"><span id="tfa_Pleaseindicatewh" class="choices"><span class="oneChoice"><input type="checkbox" value="tfa_ACapella" class="" id="tfa_ACapella" name="tfa_ACapella"><label for="tfa_ACapella" class="postField">A Capella</label></span><span class="oneChoice"><input type="checkbox" value="tfa_Alternative" class="" id="tfa_Alternative" name="tfa_Alternative"><label for="tfa_Alternative" class="postField">Alternative </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Bluegrass" class="" id="tfa_Bluegrass" name="tfa_Bluegrass"><label for="tfa_Bluegrass" class="postField">Bluegrass </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Blues" class="" id="tfa_Blues" name="tfa_Blues"><label for="tfa_Blues" class="postField">Blues </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Classical" class="" id="tfa_Classical" name="tfa_Classical"><label for="tfa_Classical" class="postField">Classical </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Country" class="" id="tfa_Country" name="tfa_Country"><label for="tfa_Country" class="postField">Country </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Dance" class="" id="tfa_Dance" name="tfa_Dance"><label for="tfa_Dance" class="postField">Dance </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Folk" class="" id="tfa_Folk" name="tfa_Folk"><label for="tfa_Folk" class="postField">Folk </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Funk" class="" id="tfa_Funk" name="tfa_Funk"><label for="tfa_Funk" class="postField">Funk </label></span><span class="oneChoice"><input type="checkbox" value="tfa_HardRock" class="" id="tfa_HardRock" name="tfa_HardRock"><label for="tfa_HardRock" class="postField">Hard Rock</label></span><span class="oneChoice"><input type="checkbox" value="tfa_HipHop" class="" id="tfa_HipHop" name="tfa_HipHop"><label for="tfa_HipHop" class="postField">HipHop </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Jazz" class="" id="tfa_Jazz" name="tfa_Jazz"><label for="tfa_Jazz" class="postField">Jazz </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Pop" class="" id="tfa_Pop" name="tfa_Pop"><label for="tfa_Pop" class="postField">Pop </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Punk" class="" id="tfa_Punk" name="tfa_Punk"><label for="tfa_Punk" class="postField">Punk </label></span><span class="oneChoice"><input type="checkbox" value="tfa_RB" class="" id="tfa_RB" name="tfa_RB"><label for="tfa_RB" class="postField">R&amp;B </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Reggae" class="" id="tfa_Reggae" name="tfa_Reggae"><label for="tfa_Reggae" class="postField">Reggae </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Religious" class="" id="tfa_Religious" name="tfa_Religious"><label for="tfa_Religious" class="postField">Religious </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Rock" class="" id="tfa_Rock" name="tfa_Rock"><label for="tfa_Rock" class="postField">Rock </label></span><span class="oneChoice"><input type="checkbox" value="tfa_ThemeTVMoviesSho" class="" id="tfa_ThemeTVMoviesSho" name="tfa_ThemeTVMoviesSho"><label for="tfa_ThemeTVMoviesSho" class="postField">Theme (TV, Movies, Shows) </label></span><span class="oneChoice"><input type="checkbox" value="tfa_Zydeco" class="" id="tfa_Zydeco" name="tfa_Zydeco"><label for="tfa_Zydeco" class="postField">Zydeco </label></span><span class="oneChoice"><input type="checkbox" value="tfa_OtherNotListed" class="" id="tfa_OtherNotListed" name="tfa_OtherNotListed"><label for="tfa_OtherNotListed" class="postField">Other (Not Listed)</label></span></span></span> <br><span class="errMsg" id="tfa_Pleaseindicatewh-E"> </span>
+</div>
+<div id="tfa_Howwouldyoudescr-D" class="oneField">
+<label class="preField">How would you describe your talent level, and or experience? <span class="reqMark">*</span></label> <span class="required"><span id="tfa_Howwouldyoudescr" class="choices"><span class="oneChoice"><input type="radio" value="tfa_Beginner" class="" id="tfa_Beginner" name="tfa_Howwouldyoudescr"><label for="tfa_Beginner" class="postField">Beginner</label></span><span class="oneChoice"><input type="radio" value="tfa_Intermediate" class="" id="tfa_Intermediate" name="tfa_Howwouldyoudescr"><label for="tfa_Intermediate" class="postField">Intermediate</label></span><span class="oneChoice"><input type="radio" value="tfa_Advanced" class="" id="tfa_Advanced" name="tfa_Howwouldyoudescr"><label for="tfa_Advanced" class="postField">Advanced</label></span><span class="oneChoice"><input type="radio" value="tfa_Professional" class="" id="tfa_Professional" name="tfa_Howwouldyoudescr"><label for="tfa_Professional" class="postField">Professional</label></span></span></span> <br><span class="errMsg" id="tfa_Howwouldyoudescr-E"> </span>
+</div>
+<div id="tfa_Addanycommentsab-D" class="oneField">
+<label class="preField" for="tfa_Addanycommentsab">Add any comments about yourself, your music, or any other information you'd like the group to see. It's a good idea to include the links to your webpages, or blogs, so the group can visit. </label> <textarea cols="40" rows="4" id="tfa_Addanycommentsab" name="tfa_Addanycommentsab" class=""></textarea> <br><span class="errMsg" id="tfa_Addanycommentsab-E"> </span>
+</div>
+<div class="actions">
+<input type="submit" class="primaryAction" id="submit-" name="tfa_submitAction" value="submit"><input type="hidden" value="9141" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="5ea0efba337a38a6acaee67e6b1b80f5" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="15" name="tfa_dbVersionId" id="tfa_dbVersionId">
+</div>
+</form></div>
+
+      <p class="supportInfo" >
+                              <a href="http://www.formassembly.com"><img src="http://www.tfaforms.com/images/powered_by_formassembly.gif" align="right" style="background-color:#FFF; padding:3px; border:2px solid #F1F1F1"; /></a>
+                              <a href="http://www.tfaforms.com/forms/help/9141" target="new" style="font-size: 0.7em;">
+                    Need assistance with this form?               </a>
+
+                        <div style="text-align: right; font-size: 0.7em; margin: 0.6em 0" >
+               <a href="http://www.tfaforms.com/forms/abuse" class="supportInfo" style="display: inline;" target="_new">Report abuse</a>
+            </div>
+                    </p>
+
+</div>
+    ]]>
+  </Content>
+</Module>
