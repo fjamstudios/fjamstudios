@@ -4,7 +4,7 @@
   <Content type="html">
     <![CDATA[
       <FORM>
-<INPUT type="button" value="New Window!" onClick="window.open('http://www.pageresource.com/jscript/jex5.htm','mywindow','width=400,height=200')">
+<INPUT type="button" value="Add Quotes" onClick="window.open('https://sites.google.com/site/fjampages/add-quotes-to-messages','mywindow','width=800,height=400')">
 </FORM> 
     ]]>
   </Content>
