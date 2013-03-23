@@ -6,7 +6,8 @@
       <bgcolor="silver">
 <FORM>
 <center><INPUT type="button" value="Add Quotes" onClick="window.open('https://sites.google.com/site/fjampages/add-quotes-to-messages','mywindow','width=800,height=400')">
-<INPUT type="button" value="Smilies Page 1" onClick="window.open('http://tinyurl.com/bozdj5d','mywindow','width=200,height=600,scrollbars=yes')"></center>
+<INPUT type="button" value="Smilies Page 1" onClick="window.open('http://tinyurl.com/bozdj5d','mywindow','width=200,height=600,scrollbars=yes')">
+<INPUT type="button" value="Smilies Page 2" onClick="window.open('http://tinyurl.com/cobw4vl','mywindow','width=200,height=600,scrollbars=yes')"></center>
 </FORM> 
     ]]>
   </Content>
