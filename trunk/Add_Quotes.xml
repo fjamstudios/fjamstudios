@@ -13,7 +13,7 @@
 <INPUT type="button" value="Smilies Page 5" onClick="window.open('http://tinyurl.com/bc9wwhm','mywindow','width=250,height=600,scrollbars=yes')">
 <INPUT type="button" value="Members" onClick="window.open('http://tinyurl.com/a2osdxq','mywindow','width=250,height=600,scrollbars=yes')">
 <INPUT type="button" value="Avatars" onClick="window.open('https://sites.google.com/site/fjampages/avatars','mywindow','width=250,height=600,scrollbars=yes')">
-<INPUT type="button" value="Get MP3 Player" onClick="window.open('https://sites.google.com/site/fjatestsite/help/mp3playertemplate','mywindow','width=400,height=600,scrollbars=yes')"></center>
+<INPUT type="button" value="Get MP3 Player" onClick="window.open('https://sites.google.com/site/fjampages/mp3-player-template','mywindow','width=400,height=600,scrollbars=yes')"></center>
 </FORM> 
     ]]>
   </Content>
