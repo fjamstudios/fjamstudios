@@ -36,7 +36,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="" selected>Specific Talent</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/bassist">Bass</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/drums">Drums</option>
-<option value="https://sites.google.com/site/fjatestsite/guitar">Guitar</option>
+<option value="https://sites.google.com/site/fjatestsite/talent-profiles/guitar">Guitar</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/singers">Singer</option></select>
     ]]>
   </Content>
