@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Odeo Flash Player"
+title_url="http://sites.google.com/site/annuairevin/tips-and-tricks-for-google-sites"
+height="62"
+width="310"
+scrolling="false"
+directory_title="Odeo Flash Player"
+description="Flash Container to Play MP3 Songs."
+screenshot="http://www.liens-du-vin.ch/_pic061/odeo-flash-screen.png"
+thumbnail="http://www.liens-du-vin.ch/_pic061/odeo-flash-thumb.png"
+author="Philippe Chappuis"
+author_email="info+gadgetCSE@liens-du-vin.ch"
+author_affiliation="Google"
+author_location="Rolle Switzerland"
+author_link="http://http://www.liens-du-vin.ch"
+author_photo="http://www.liens-du-vin.ch/_pic02/gadget-author-photo.png"
+author_aboutme="An Engineer who likes to develop for the Net and tastes wines"
+author_quote="A chief is a man who assumes responsibility. He says &quot;I was
+beaten&quot; he does not say &quot;My men were beaten&quot; - Antoine de
+Saint-Exupery">
+
+<Require feature="flash" />
+<Require feature="analytics" />
+
+</ModulePrefs>
+
+<UserPref name="MP3" display_name="Mp3 file to play"
+required="true" default_value="http://www.liens-du-vin.ch/_files/bach_243_gloria_patri.mp3" />
+
+<UserPref name="APL" display_name="Auto Play (Yes or No)" required="true"
+default_value="No" />
+
+<UserPref name="SKIN" display_name="Skin" default_value="Gray - Black" datatype="enum" >
+<EnumValue value="Gray - Black" />
+<EnumValue value="Pink - Gray" />
+</UserPref>
+
+<UserPref name="CCOL" display_name="Container Color" required="true"
+default_value="#d1dae3" />
+
+<Content type="html">
+<![CDATA[
+
+<style type="text/css">
+body
+{
+padding: 0;
+margin: 0;
+background: __UP_CCOL__;
+}
+
+</style>
+
+<center><div id="flashcontainer" style="text-align: center;"></div></center>
+
+<script type="text/javascript">
+
+// Global variables
+
+var prefs = new gadgets.Prefs();
+
+var s_fil=prefs.getString("MP3");
+
+var apl="auto_play=false";
+var s_apl = prefs.getString("APL");
+if (s_apl)
+{
+s_apl=s_apl.toUpperCase();
+if (s_apl.substr(0,1) == 'N')
+   {apl="auto_play=false";}
+else
+   {apl="auto_play=true";}
+}
+
+var s_ski=_trim(prefs.getString("SKIN"));
+
+if (s_ski == 'Gray - Black')
+{s_ski='https://fjamstudios.googlecode.com/svn/branches/fjamflashplayer/odeo-black.swf';}  
+else
+{s_ski='https://fjamstudios.googlecode.com/svn/branches/fjamflashplayer/odeo-pink.swf';}
+  
+var sfv =  apl + "&valid_sample_rate=true&external_url=" + s_fil;
+
+// Play .swf file
+
+function displaySlide()
+{
+
+// Play .swf file.
+
+var bf=gadgets.flash.embedFlash(s_ski, "flashcontainer", 9,{
+flashvars: sfv,
+wmode: "transparent",
+id: "flashid",
+width: 300,
+height: 52
+})
+
+if (bf == false) { alert("Error loading Flash"); }
+
+}
+
+// When gadget first loads, display slide
+
+gadgets.util.registerOnLoadHandler(displaySlide);
+  
+_IG_Analytics("UA-442758-35", "/gg_odeo");
+
+</script>
+]]>
+</Content>
+</Module>
