@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title></title>
+
+
+	<style type="text/css">
+	body
+	{
+		padding: 5px;
+	}
+	</style>
+	
+	
+	<link href="cm-style.css" rel="stylesheet" type="text/css" />
+			
+</head>
+
+<body style="margin: 0">
+
+      
+<script type="text/javascript">	
+
+	
+	function SetCssAttribValue(selectorName, attrib, attribValue)
+	{
+		document.styleSheets[1].addRule(selectorName, attrib + ":" + attribValue);	
+	}
+		
+	function GetCssAttribValue(selectorName, attrib)
+	{
+	   selectorName = selectorName.toLowerCase();
+		
+		var rules = document.styleSheets[1].rules;
+		
+		var i = rules.length;
+		
+
+		while(--i)
+		{
+			var rule = rules.item(i);
+	      
+			if( selectorName == rule.selectorText.toLowerCase() &&
+			    rule.style[attrib] )
+			{
+				return rule.style[attrib];
+			}
+		}
+		
+		return ""; 
+	}
+	
+	function GetCssText()
+	{
+	   return document.styleSheets[1].cssText;
+	}	
+</script>
+
+
+	<div id="id_menu_cont" style="display:table"></div>
+
+
+   </body>
+</html>
