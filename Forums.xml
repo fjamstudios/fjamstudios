@@ -15,6 +15,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="" selected>FORUMS</option>
 <option value="https://sites.google.com/site/fjatestsite/discussions">Talk About Anything</option>
 <option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions">D.A.W. Specific Discussion</option>
+<option value="https://sites.google.com/site/fjatestsite/listening-rooms">Listening Rooms</option>
 <option value="https://sites.google.com/site/fjatestsite/f-jam-news">Site News</option>
 <option value="https://www.facebook.com/groups/131537443544094/" target="_blank">F-Jam On Facebook</option>
   </select>   <script language="JavaScript" type="text/JavaScript">
