@@ -31,10 +31,7 @@
             <item url="https://sites.google.com/site/fjatestsite/finished-tracks-jukebox" target="_top" lbTxt="Jukebox"/>
             <item url="https://sites.google.com/site/fjatestsite/help/addafinishedtracktothejukebox" target="_top" lbTxt="Add To Jukebox"/>
             <item url="https://sites.google.com/site/fjatestsite/favorites" target="_top" lbTxt="Favorites"/>
-            <menu url="#" lbTxt="Online Bands">
-                  <item url="https://sites.google.com/site/fjatestsite/official-fly-band-page" target="_top" lbTxt="FLY"/>
-                  <item url="https://sites.google.com/site/fjatestsite/official-curtain-call-page" target="_top" lbTxt="Curtain Call"/>
-                  <item url="https://sites.google.com/site/fjatestsite/rock-opera-project" target="_top" lbTxt="The Avalanche (Rock Opera)"/>
+            <menu url="https://sites.google.com/site/fjatestsite/online-bands" lbTxt="Online Bands">
             </menu>
       </menu>
       <item url="https://sites.google.com/site/fjatestsite/home/artwork" target="_top" lbTxt="Artwork"/>
