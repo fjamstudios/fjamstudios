@@ -11,7 +11,7 @@
 <INPUT type="button" value="Smilies Page 3" onClick="window.open('http://tinyurl.com/bqq9z94','mywindow','width=250,height=600,scrollbars=yes')">
 <INPUT type="button" value="Smilies Page 4" onClick="window.open('http://tinyurl.com/bfb82xo','mywindow','width=250,height=600,scrollbars=yes')">
 <INPUT type="button" value="Smilies Page 5" onClick="window.open('http://tinyurl.com/bc9wwhm','mywindow','width=250,height=600,scrollbars=yes')">
-<INPUT type="button" value="Members" onClick="window.open('http://tinyurl.com/a2osdxq','mywindow','width=250,height=600,scrollbars=yes')">
+<INPUT type="button" value="Members" onClick="window.open('http://tinyurl.com/a2osdxq','mywindow','width=300,height=600,scrollbars=yes')">
 <INPUT type="button" value="Avatars" onClick="window.open('https://sites.google.com/site/fjampages/avatars','mywindow','width=250,height=600,scrollbars=yes')">
 <INPUT type="button" value="Get MP3 Player" onClick="window.open('https://sites.google.com/site/fjatestsite/help/mp3playertemplate','mywindow','width=600,height=600,scrollbars=yes')"></center>
 </FORM> 
