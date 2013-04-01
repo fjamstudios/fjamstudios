@@ -34,7 +34,9 @@
             <menu url="https://sites.google.com/site/fjatestsite/online-bands" lbTxt="Online Bands">
             </menu>
       </menu>
-      <item url="https://sites.google.com/site/fjatestsite/home/artwork" target="_top" lbTxt="Artwork"/>
+      <menu url="#" lbTxt="Artwork">
+      <item url="https://sites.google.com/site/fjatestsite/home/artwork" target="_top" lbTxt="Artwork Archive"/>
+      </menu>
       <item url="https://sites.google.com/site/fjatestsite/discussions" target="_top" lbTxt="Forums"/>
       <item url="https://sites.google.com/site/fjatestsite/f-jam-news" target="_top" lbTxt="Site News"/>
    </menu>
