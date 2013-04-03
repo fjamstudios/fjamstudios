@@ -41,6 +41,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/composition">Composer</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/drums">Drums</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/guitar">Guitar</option>
+<option value="https://sites.google.com/site/fjatestsite/talent-profiles/harmonica">Harmonica</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/horn">Horns</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/keys">Keys</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/lyrics">Lyrics</option>
