@@ -46,6 +46,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/keys">Keys</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/lyrics">Lyrics</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/mix-master">Mix/Master</option>
+<option value="https://sites.google.com/site/fjatestsite/talent-profiles/producer">Producer</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/singers">Singer</option></select>
     ]]>
   </Content>
