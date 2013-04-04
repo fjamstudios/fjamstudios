@@ -36,7 +36,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 //-->
 </script><select name="Specific Talent" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
 <option value="" selected>Specific Talent</option>
-<option value="https://sites.google.com/site/fjatestsite/talent-profiles/acoustic-folk-inst">Acoustic Folk Instruments</option>
+<option value="https://sites.google.com/site/fjatestsite/talent-profiles/acoustic-folk-inst">Acoustic Folk Inst.</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/arrangement">Arrangement</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/bassist">Bass</option>
 <option value="https://sites.google.com/site/fjatestsite/talent-profiles/composition">Composer</option>
