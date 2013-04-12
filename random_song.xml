@@ -12,7 +12,7 @@ var Quotation=new Array() // do not change this!
 // to increment the Quotation[x] index!
 
 Quotation[0] = "<center>Europica - All In You<br><iframe src=http://tinyurl.com/c5rlfat></iframe></center>";
-Quotation[1] = "<center><iframe  src=http://home.comcast.net/~fjam2010/slim_player.swf?song_url=http://www.macjams.com/lab/music/67173.mp3&player_title=F-Jam%20Studios-Pop/Rock&song_title=The%20Top%20Of%20My%20Game-Freddy_N_Pete></iframe></center>";
+Quotation[1] = "<center>Pete Power and Fred Jam - Top Of My Game<br><iframe  src=http://tinyurl.com/bu5dcau></iframe></center>";
 Quotation[2] =  "<center><iframe  src=http://tinyurl.com/cf2dat6></iframe></center>";
 Quotation[3] =  "<center><iframe  src=http://tinyurl.com/3p6ztzf></iframe></center>";
 Quotation[4] =  "<center><iframe  src=http://tinyurl.com/3zklm2s></iframe></center>";
