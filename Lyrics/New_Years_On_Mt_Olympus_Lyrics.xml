@@ -4,7 +4,7 @@
   <Content type="html">
     <![CDATA[
 <center>    <FORM>
-<INPUT type="button" value="Lyrics" onClick="window.open('https://sites.google.com/site/fjampages/new-years-on-mt-olympusshowlyrics','width=400,height=800,location=no')">
+<INPUT type="button" value="Lyrics" onClick="window.open('https://sites.google.com/site/fjampages/new-years-on-mt-olympus','width=400,height=800,location=no')">
 </FORM></center>     
     ]]>
   </Content>
