@@ -4,7 +4,7 @@
   <Content type="html">
     <![CDATA[
 <center>    <FORM>
-<INPUT type="button" value="Lyrics" onClick="window.open('https://sites.google.com/site/fjampages/add-graphics','addgraphics','width=275,height=400')">
+<INPUT type="button" value="Play All Songs" onClick="window.open('https://fjamstudios.googlecode.com/svn/branches/flashden-mp3-player/mp3Player_black.swf','playallfly','width=275,height=50')">
 </FORM></center>     
     ]]>
   </Content>
