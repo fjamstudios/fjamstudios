@@ -4,7 +4,7 @@
   <Content type="html">
     <![CDATA[
 <center>    <FORM>
-<INPUT type="button" value="Lyrics" onClick="window.open('https://sites.google.com/site/fjampages/pull-of-torch','showlyrics','width=400,height=800')">
+<INPUT type="button" value="Lyrics" onClick="window.open('https://sites.google.com/site/fjampages/wanderlust','showlyrics','width=400,height=800')">
 </FORM></center>     
     ]]>
   </Content>
