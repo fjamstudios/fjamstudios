@@ -21,6 +21,7 @@
       </menu>
       <item url="https://sites.google.com/site/fjatestsite/system/app/pages/createPage?source=/home" target="_top" lbTxt="Start A New Project"/>
       <menu url="#" lbTxt="HELP">
+            <item url="https://sites.google.com/site/fjatestsite/help/howtocollaboratewithothershereatf-jamstudios" target="_blank" lbTxt="How To Collaborate"/>
             <item url="https://sites.google.com/site/fjatestsite/help" target="_top" lbTxt="Go To Help Page"/>
             <item url="http://www.tfaforms.com/188611" target="_blank" lbTxt="Contact Admin"/>
       </menu>
