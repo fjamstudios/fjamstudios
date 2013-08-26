@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      <style type="text/css">
+
+.paginateselect{ /*CSS for select element*/
+}
+
+.paginatenext{ /*CSS for "Next" link*/
+border:1px solid gray;
+text-decoration: none;
+background-color: lightyellow;
+padding: 1px 2px;
+margin-left: 5px;
+}
+
+.paginatenext:hover{
+background-color: yellow;
+}
+
+.paginatestatusdiv{ /*CSS for DIV containing link to the next page*/
+padding-top: 6px;
+font-size: 14px;
+}
+
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Pagination Combo Box- by JavaScript Kit (www.javascriptkit.com)
+* This notice must stay intact for usage
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and 100s more
+***********************************************/
+
+var paginationcombo={
+statusdivprefix: "<b>Next Page:</b> ", //Customize prefix text showing what the next link within combo will be
+navigateonSelect: true, //Should combo go to URL as soon as a selection has been made within combo? True/false 
+
+////////Stop editing past here///////////////////
+
+pcomboforms: [], //array to store references to forms containing paginate combos
+
+navigate:function(selectobj){
+		window.location=selectobj.options[selectobj.selectedIndex].value
+	return false
+},
+
+hasClass:function(el, classname){
+	return (new RegExp("(^|\\s+)"+classname+"($|\\s+)", "i").test(el.className))
+},
+
+init:function(){
+	var allforms=document.getElementsByTagName("form")
+	for (var i=0; i<allforms.length; i++){
+		if (this.hasClass(allforms[i], "paginateform"))
+			this.pcomboforms[this.pcomboforms.length]=allforms[i]
+	}
+	for (var i=0; i<this.pcomboforms.length; i++){ //form loop
+		var alltags=this.pcomboforms[i].getElementsByTagName("*")
+		for (t=0; t<alltags.length; t++){
+			if (this.hasClass(alltags[t], "paginateselect")){
+				this.pcomboforms[i].pselect=alltags[t] //store ref to <select class="paginateselect"> element
+				var selectobjindex=t //remember its index position within form
+				if (this.navigateonSelect)
+					this.pcomboforms[i].pselect.onchange=function(){paginationcombo.navigate(this)}
+			}
+			else if (this.hasClass(alltags[t], "paginatenext")){
+				var pcomboform=allforms[i]
+				this.pcomboforms[i].pnext=alltags[t]
+			}
+			else if (this.hasClass(alltags[t], "paginatestatusdiv"))
+				this.pcomboforms[i].pstatus=alltags[t]
+			else if (alltags[t].tagName=="OPTION" && alltags[t].defaultSelected){
+				var selectedoptionindex=t-selectobjindex-1 //calculate default selected OPTION's index within SELECT element
+				this.pcomboforms[i].pselect.dfselected=selectedoptionindex //persist this index info inside custom property
+			}
+		}
+		if (this.pcomboforms[i].pstatus && typeof selectedoptionindex!="undefined"){
+			this.pcomboforms[i].pselect.selectedIndex=selectedoptionindex
+			var nextOption=this.pcomboforms[i].pselect.options[selectedoptionindex+1]
+			if (nextOption!=null){
+				this.pcomboforms[i].pnext.setAttribute("href", nextOption.value)
+				this.pcomboforms[i].pstatus.innerHTML=this.statusdivprefix+'<a href="'+nextOption.value+'">'+nextOption.text+'</a>'
+			}
+			else
+				this.pcomboforms[i].pnext.style.display="none"
+		}
+	} //END form loop
+},
+
+addEvent:function(target, functionref, tasktype){ //assign a function to execute to an event handler (ie: onunload)
+	var tasktype=(window.addEventListener)? tasktype : "on"+tasktype
+	if (target.addEventListener)
+		target.addEventListener(tasktype, functionref, false)
+	else if (target.attachEvent)
+		target.attachEvent(tasktype, functionref)
+}
+
+}
+
+paginationcombo.addEvent(window, function(){paginationcombo.init()}, "load")
+
+</script>
+<form class="paginateform">
+
+<select size="1" class="paginateselect">
+<option value="http://www.google.com" selected="true">Build Your Own Rocket Article Page 1 </option>
+<option value="http://images.google.com/">Build Your Own Rocket Article Page 2 </option>
+<option value="http://groups.google.com">Build Your Own Rocket Article Page 3 </option>
+<option value="http://news.google.com">Build Your Own Rocket Article Page 4 </option>
+<option value="http://labs.google.com">Build Your Own Rocket Article Page 5 </option>
+</select> <a href="#" class="paginatenext">Next</a>
+
+<div class="paginatestatusdiv"></div>
+
+</form>
+    ]]>
+  </Content>
+</Module>
