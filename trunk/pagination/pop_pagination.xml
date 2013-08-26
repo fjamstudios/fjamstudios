@@ -108,7 +108,7 @@ paginationcombo.addEvent(window, function(){paginationcombo.init()}, "load")
 <form class="paginateform">
 
 <select size="1" class="paginateselect">
-<option value="http://www.google.com" selected="true">Build Your Own Rocket Article Page 1 </option>
+<option value="https://sites.google.com/site/fjatestsite/finished-tracks---pop" selected="true">Finished Pop Tunes Page 1 </option>
 <option value="http://images.google.com/">Build Your Own Rocket Article Page 2 </option>
 <option value="http://groups.google.com">Build Your Own Rocket Article Page 3 </option>
 <option value="http://news.google.com">Build Your Own Rocket Article Page 4 </option>
