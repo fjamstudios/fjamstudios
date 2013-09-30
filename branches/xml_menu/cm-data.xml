@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <menuinfo>
    <menu>
-      <item url="http://fjam.zapto.org/" target="_top" lbTxt="HOME"/>
+      <item url="https://sites.google.com/site/fjatestsite/" target="_top" lbTxt="HOME"/>
       <menu url="#" lbTxt="Login">
             <menu url="https://sites.google.com/" target="_blank" lbTxt="Login To F-Jam Studios">
                   <item url="https://sites.google.com/site/fjatestsite/help/helpwithlogin" target="_blank" lbTxt="HELP with Login"/>
