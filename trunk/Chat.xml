@@ -3,7 +3,7 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-<script src="http://www.everywherechat.com/e.php?defaultRoom=F-Jam_Studios&roomList=true&fontSize=12&width=600&height=500&theme=day"></script> 
+<center><script src="http://www.everywherechat.com/e.php?defaultRoom=F-Jam_Studios&roomList=true&fontSize=12&width=100%&height=800&theme=day"></script></center>
     ]]>
   </Content>
 </Module>
