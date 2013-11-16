@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      <iframe src=http://fjamstudios.bugs3.com/chat/info_embedded.php></iframe>
+    ]]>
+  </Content>
+</Module>
