@@ -30,7 +30,7 @@
             <item url="https://sites.google.com/site/fjatestsite/home/lyrics" target="_top" lbTxt="Lyrics Archive"/>
       </menu>
       <menu url="#" lbTxt="Finished Tracks">
-            <item url="https://sites.google.com/site/fjatestsite/finished-tracks-jukebox" target="_top" lbTxt="Jukebox"/>
+            <item url="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox" target="_top" lbTxt="Jukebox"/>
             <item url="https://sites.google.com/site/fjatestsite/help/addafinishedtracktothejukebox" target="_top" lbTxt="Add To Jukebox"/>
             <item url="https://sites.google.com/site/fjatestsite/favorites" target="_top" lbTxt="Favorites"/>
             <menu url="https://sites.google.com/site/fjatestsite/online-bands" lbTxt="Online Bands">
