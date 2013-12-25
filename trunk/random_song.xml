@@ -11,7 +11,7 @@ var Quotation=new Array() // do not change this!
 // pattern, adding to the array.  Remember
 // to increment the Quotation[x] index!
 
-Quotation[0] = "<center>Reggae - Europica - All In You<br><iframe src=https://fjamstudios.googlecode.com/svn/branches/xspf/slim/slim_player.swf?song_url=https://copy.com/FGHi7hijC9qT&player_title=FLY - Don't Pretend&song_title=FLY - Don't Pretend></iframe></center>";
+Quotation[0] = "<center>Reggae - Europica - All In You<br><iframe src=https://tinyurl.com/lkyhk5w></iframe></center>";
 
 
 
