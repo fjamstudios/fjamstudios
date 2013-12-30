@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Get MP3 Player" />
+  <Content type="html">
+    <![CDATA[
+      <script type="text/javascript" src="http://www.pipebytes.com/widget/js/widget.js">
+</script>
+    ]]>
+  </Content>
+</Module>
