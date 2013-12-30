@@ -3,7 +3,7 @@
   <ModulePrefs title="Get MP3 Player" />
   <Content type="html">
     <![CDATA[
-      <script type="text/javascript" src="https://www.pipebytes.com/widget/js/widget.js">
+      <script type="text/javascript" src="http://www.pipebytes.com/widget/js/widget.js">
 </script>
     ]]>
   </Content>
