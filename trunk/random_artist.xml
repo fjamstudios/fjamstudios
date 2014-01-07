@@ -11,7 +11,7 @@ var Quotation=new Array() // do not change this!
 // pattern, adding to the array.  Remember
 // to increment the Quotation[x] index!
 
-Quotation[0] = "<center>Guy Bergeron<br><iframe src=https://www.reverbnation.com/widget_code/html_widget/artist_940596?widget_id=50&posted_by=artist_852953&pwc[design]=default&pwc[background_color]=%23333333&pwc[included_songs]=1&pwc[photo]=0%2C1></iframe></center>";
+Quotation[0] = "<center>Guy Bergeron<br><iframe src=]=https://sites.google.com/site/fjamages/guy-bergeron></iframe></center>";
 
 
 
