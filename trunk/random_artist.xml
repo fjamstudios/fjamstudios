@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Random Song Spotlight" />
+  <Content type="html">
+    <![CDATA[
+<script language="JavaScript">
+var Quotation=new Array() // do not change this!
+
+// Set up the quotations to be shown, below.
+// To add more quotations, continue with the
+// pattern, adding to the array.  Remember
+// to increment the Quotation[x] index!
+
+Quotation[0] = "<center>Guy Bergeron<br><iframe src=https://tinyurl.com/qav2es5></iframe></center>";
+
+
+
+
+// ======================================
+// Do not change anything below this line
+// ======================================
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+function showQuotation(){document.write(Quotation[whichQuotation]);}
+showQuotation();
+</script>
+    ]]>
+  </Content>
+</Module>
