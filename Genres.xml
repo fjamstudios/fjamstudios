@@ -29,7 +29,7 @@ stm_bpx("p2","p1",[]);
 stm_aix("p2i0","p1i0",[0,"Funk","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/finished-tracks---funk","_top","","Finished Tracks In The Funk Genre"],300,0);
 stm_aix("p2i1","p1i0",[0,"Rhythm and Blues","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/finished-tracks-jukebox/rhythm-blues","_top","","Finished tracks in the Rhythm & Blues genre"],300,0);
 stm_ep();
-stm_aix("p0i12","p1i0",[0,"Reggae","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/finished-tracks---reggae","_top","","Finished Tracks In The Reggae Genre"],300,0);
+stm_aix("p0i12","p1i0",[0,"Reggae","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/home/finished-tracks---reggae","_top","","Finished Tracks In The Reggae Genre"],300,0);
 stm_aix("p0i13","p1i0",[0,"Rock","","",-1,-1,0,"https://sites.google.com/site/fjatestsite/finished-tracks---rock","_top","","Finished Tracks In The Rock Genre"],300,0);
 stm_ep();
 stm_em();
