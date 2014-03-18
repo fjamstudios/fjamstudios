@@ -5,7 +5,7 @@
     <![CDATA[
       <bgcolor="silver">
 <FORM>
-<center><INPUT type="button" value="Who's In Chat" onClick="window.open('https://sites.google.com/site/fjatestsite/help/ifyoudontseecommentsatthebottomofthepages','mywindow','width=300,height=400')"></center>
+<center><INPUT type="button" value="Help with comments" onClick="window.open('https://sites.google.com/site/fjatestsite/help/ifyoudontseecommentsatthebottomofthepages','mywindow','width=300,height=400')"></center>
 </FORM> 
     ]]>
   </Content>
