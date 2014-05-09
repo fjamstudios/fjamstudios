@@ -17,6 +17,7 @@ Quotation[2] = "<center>Pop Rock- Peter Bowen - Top Of My Game<br><iframe src=ht
 Quotation[3] = "<center>R&B - Jay and Billy - So Tired<br><iframe src=https://tinyurl.com/np7hxgs></iframe></center>";
 Quotation[4] = "<center>Ballad - April and Florian - Only Memories Now<br><iframe src=https://tinyurl.com/mnpqr98></iframe></center>";
 Quotation[5] = "<center>Country - April Knoll - The Unveiling<br><iframe src=https://tinyurl.com/nyr9hvw></iframe></center>";
+Quotation[6] = "<center>Jazz - Laura Holden - Fine Lines<br><iframe src=https://tinyurl.com/kqm2fnm></iframe></center>";
 
 
 
@@ -32,3 +33,4 @@ showQuotation();
     ]]>
   </Content>
 </Module>
+https://tinyurl.com/kqm2fnm
