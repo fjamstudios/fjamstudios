@@ -1,8 +1,0 @@
-<Module>
-<ModulePrefs title="News Scroller"/>
-<Content type="html">
-<![CDATA[
-<p><font color="#FF0000" size="5"><em><strong><marquee bgcolor="#FFFF00">The project listing is down at the bottom of this page!!! Scroll down...</marquee></strong></em></font></p>
-]]>
-</Content>
-</Module>
