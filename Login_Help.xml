@@ -11,6 +11,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 </script><select name="Get HELP VIA" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
 <option value="" selected>Choose one!</option>
 <option value="https://www.facebook.com/groups/fjamstudios/permalink/824791514218680/">Facebook</option>
+<option value="mailto:fjamstudios@gmail.com?subject=Need Help With Login">E-mail</option>
     ]]>
   </Content>
 </Module>
