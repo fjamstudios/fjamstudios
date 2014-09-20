@@ -5,7 +5,7 @@
     <![CDATA[
       <bgcolor="silver">
 <FORM>
-<center><INPUT type="button" value="Add Color To Players" onClick="window.open('https://sites.google.com/site/fjampages/html-colors','mywindow','width=400,height=800')"></center>
+<center><INPUT type="button" value="Add Color To Players" onClick="window.open('https://sites.google.com/site/fjampages/html-colors','mywindow','width=400,height=900')"></center>
 </FORM> 
     ]]>
   </Content>
