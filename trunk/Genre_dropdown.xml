@@ -8,8 +8,8 @@
 function HDD_Menu(targetpage,selected){
 if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".location='"+selected.options[selected.selectedIndex].value+"'");}}
 //-->
-</script><select name="Choose Genre Of Finished Tracks Jukebox" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
-<option value="" selected>Choose Genre Of Finished Tracks Jukebox</option>
+</script><select name="Choose Genre Of Finished Tracks" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
+<option value="" selected>Choose Genre Of Finished Tracks</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/alt-rock">Alt. Rock</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/ballad">Ballad</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/blues">Blues</option>
