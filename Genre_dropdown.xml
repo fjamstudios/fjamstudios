@@ -14,6 +14,8 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/ballad">Ballad</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/blues">Blues</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/classical">Classical</option>
+<option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/country">Country</option>
+<option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/dance-club">Dance-Club</option>
     ]]>
   </Content>
 </Module>
