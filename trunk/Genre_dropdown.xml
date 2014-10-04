@@ -13,6 +13,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/alt-rock">Alt. Rock</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/ballad">Ballad</option>
 <option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/blues">Blues</option>
+<option value="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/classical">Classical</option>
     ]]>
   </Content>
 </Module>
