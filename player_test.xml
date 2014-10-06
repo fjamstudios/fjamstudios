@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      <embed "1" TYPE="application/x-mplayer2" SRC="http://kkrcity.com/1.mp3" autostart="true" WIDTH="120" HEIGHT="50"></embed>
+    ]]>
+  </Content>
+</Module>
