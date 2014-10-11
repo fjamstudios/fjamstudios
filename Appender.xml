@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+      var url = window.location.href;    
+if (url.indexOf('?') > -1){
+   url += '&param=1'
+}else{
+   url += '?param=1'
+}
+window.location.href = url;
+    ]]>
+  </Content>
+</Module>
