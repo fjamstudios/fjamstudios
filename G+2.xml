@@ -3,14 +3,10 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-<script src="https://apis.google.com/js/plusone.js">
-</script>
-<div class="g-comments"
-    data-href="https://plus.google.com/u/0/113702300984828916280/posts/LXktfL6tNon"
-    data-width="642"
-    data-first_party_property="BLOGGER"
-    data-view_type="FILTERED_POSTMOD">
-</div>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script> 
+ <script type="text/javascript"> 
+ google.load("jquery", "1.7.1"); 
+ </script>
     ]]>
   </Content>
 </Module>
