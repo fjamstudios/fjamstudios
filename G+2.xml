@@ -3,14 +3,15 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-<script src="https://apis.google.com/js/plusone.js">
+<div id="comments"></div>
+<script>
+gapi.comments.render('comments', {
+    href: window.location,
+    width: '624',
+    first_party_property: 'BLOGGER',
+    view_type: 'FILTERED_POSTMOD'
+});
 </script>
-<div
-    data-href="https://plus.google.com/u/0/113702300984828916280/posts/LXktfL6tNon"
-    data-width="642"
-    data-first_party_property="BLOGGER"
-    data-view_type="FILTERED_POSTMOD">
-</div>
     ]]>
   </Content>
 </Module>
