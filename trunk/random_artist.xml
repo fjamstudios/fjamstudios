@@ -3,24 +3,38 @@
   <ModulePrefs title="Random Song Spotlight" />
   <Content type="html">
     <![CDATA[
-<script language="JavaScript">
-var Quotation=new Array() // do not change this!
+<script language="JavaScript1.2">
 
-// Set up the quotations to be shown, below.
-// To add more quotations, continue with the
-// pattern, adding to the array.  Remember
-// to increment the Quotation[x] index!
+//Random iframe content- © Dynamic Drive (www.dynamicdrive.com)
+//For full source code, and Terms Of use, visit http://dynamicdrive.com
+//This credit MUST stay intact for use
 
-Quotation[0] = "<center><iframe src=https://www.reverbnation.com/widget_code/html_widget/artist_852953?widget_id=50&posted_by=artist_852953></iframe></center>";
+var ie=document.all&&navigator.userAgent.indexOf("Opera")==-1
+var dom=document.getElementById&&navigator.userAgent.indexOf("Opera")==-1
 
+//Specify IFRAME display attributes
+var iframeprops='width=130 height=130 marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="1" scrolling="no"'
 
-// ======================================
-// Do not change anything below this line
-// ======================================
-var Q = Quotation.length;
-var whichQuotation=Math.round(Math.random()*(Q-1));
-function showQuotation(){document.write(Quotation[whichQuotation]);}
-showQuotation();
+//Specify random URLs to display inside iframe
+var randomcontent=new Array()
+randomcontent[0]="random1.htm"
+randomcontent[1]="random2.htm"
+randomcontent[2]="random3.htm"
+randomcontent[3]="random4.htm"
+
+//No need to edit after here
+if (ie||dom)
+document.write('<iframe id="dynstuff" src="" '+iframeprops+'></iframe>')
+
+function random_iframe(){
+if (ie||dom){
+var iframeobj=document.getElementById? document.getElementById("dynstuff") : document.all.dynstuff
+iframeobj.src=randomcontent[Math.floor(Math.random()*randomcontent.length)]
+}
+}
+
+window.onload=random_iframe
+
 </script>
     ]]>
   </Content>
