@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Javascript" />
+  <Content type="html">
+    <![CDATA[
+      <bgcolor="silver">
+<FORM>
+<center><INPUT type="button" value="?" title="Click this button!" onClick="window.open('https://sites.google.com/site/fjampages/about-this-site','mywindow','width=400,height=400')"></center>
+</FORM> 
+    ]]>
+  </Content>
+</Module>
