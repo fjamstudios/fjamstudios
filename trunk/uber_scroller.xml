@@ -1,8 +1,8 @@
 <Module>
-<ModulePrefs title="News Scroller"/>
+<ModulePrefs title="Uberchat Scroller"/>
 <Content type="html">
 <![CDATA[
-<p><font color="#FF0000" size="5"><em><strong><marquee bgcolor="#FFFF00">The project listing is down at the bottom of this page!!! Scroll down...</marquee></strong></em></font></p>
+<p><font color="#FF0000" size="5"><em><strong><marquee bgcolor="#FFFF00">To notify people of your comment remember to TAG them by typing @ and then a name!!! Even when responding....</marquee></strong></em></font></p>
 ]]>
 </Content>
 </Module>
