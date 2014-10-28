@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Add This!" />
+  <Content type="html">
+    <![CDATA[
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-544e2ecf651400f7" async="async"></script>
+    ]]>
+  </Content>
+</Module>
