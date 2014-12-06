@@ -4,15 +4,20 @@
   <Content type="html">
     <![CDATA[
       <bgcolor="silver">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=314436592099457&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/holiday/merry-christmas-song" data-width="800" data-numposts="20" data-colorscheme="dark"></div>
+<div class="n">
+    <div id="fb-root" class="fb_reset">
+        <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+        </div>
+    </div>
+    <script src="http://connect.facebook.net/en_US/all.js#appId=APP_ID&amp;xfbml=1" type="text/javascript">
+</script><script type="text/javascript" language="javascript">
+
+        //<![CDATA[
+        document.write("<fb:comments href='YOURSITE.jimdo.com' num_posts='10' width='500'><\/fb:comments>");
+        //]]>
+    </script>
+</div>
+ 
     ]]>
   </Content>
 </Module>
