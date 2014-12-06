@@ -12,7 +12,7 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-numposts="5" data-colorscheme="light"></div>
+<div class="fb-comments" data-href="https://sites.google.com/site/fjatestsite/home/finished-tracks-jukebox/holiday/merry-christmas-song" data-numposts="25" data-colorscheme="dark"></div>
     ]]>
   </Content>
 </Module>
