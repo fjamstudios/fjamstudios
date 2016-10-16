@@ -3,7 +3,7 @@
   <ModulePrefs title="Forums" />
   <Content type="html">
     <![CDATA[  
-<script language="JavaScript" type="text/JavaScript">
+<center><script language="JavaScript" type="text/JavaScript">
 <!--
 function HDD_Menu(targetpage,selected){
 if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".location='"+selected.options[selected.selectedIndex].value+"'");}}
@@ -17,7 +17,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjatestsite/f-jam-news">Site News</option>
 <option value="https://www.facebook.com/groups/131537443544094/" target="_blank">F-Jam On Facebook</option>
 <option value="https://twitter.com/FJamStudios" target="_blank">F-Jam On Twitter</option>
-  </select>
+  </select></center>
     ]]>
   </Content>
 </Module>
