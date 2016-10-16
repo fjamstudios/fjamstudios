@@ -5,7 +5,7 @@
     <![CDATA[
       <bgcolor="silver">
 <FORM>
-<center><INPUT type="button" value="Upload File" title="Click this button!" onClick="window.open('https://drive.google.com/drive/my-drive','mywindow','width=800,height=400')"></center>
+<center><INPUT type="button" value="Upload File" title="Click this button!" onClick="window.open('https://drive.google.com/drive/my-drive','mywindow','width=1000,height=400')"></center>
 </FORM> 
     ]]>
   </Content>
