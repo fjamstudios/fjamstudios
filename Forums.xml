@@ -2,10 +2,7 @@
 <Module>
   <ModulePrefs title="Forums" />
   <Content type="html">
-    <![CDATA[
-<center>    <FORM>
-<INPUT type="button" value="Add Smilies/graphics" onClick="window.open('https://sites.google.com/site/fjampages/add-graphics','addgraphics','width=275,height=400')">
-</FORM></center>     
+    <![CDATA[  
 <script language="JavaScript" type="text/JavaScript">
 <!--
 function HDD_Menu(targetpage,selected){
