@@ -17,40 +17,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjatestsite/f-jam-news">Site News</option>
 <option value="https://www.facebook.com/groups/131537443544094/" target="_blank">F-Jam On Facebook</option>
 <option value="https://twitter.com/FJamStudios" target="_blank">F-Jam On Twitter</option>
-  </select>   <script language="JavaScript" type="text/JavaScript">
-<!--
-function HDD_Menu(targetpage,selected){
-if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".location='"+selected.options[selected.selectedIndex].value+"'");}}
-//-->
-</script><select name="EXTRAS" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
-<option value="" selected>EXTRAS</option>
-<option value="https://sites.google.com/site/fjampages/chat">Chat</option>
-<option value="https://sites.google.com/site/fjatestsite/useful-links">Useful Links</option>
-<option value="https://sites.google.com/site/fjatestsite/help/mp3playertemplate">MP3 Player</option>
   </select>
-<script language="JavaScript" type="text/JavaScript">
-<!--
-function HDD_Menu(targetpage,selected){
-if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".location='"+selected.options[selected.selectedIndex].value+"'");}}
-//-->
-</script><select name="Specific Talent" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
-<option value="" selected>Specific Talent</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/acoustic-folk-inst">Ac. Folk Inst.</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/arrangement">Arrangement</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/bassist">Bass</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/composition">Composer</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/drums">Drums</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/editor-audio">Editor (Audio)</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/editor-video">Editor (Video)</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/guitar">Guitar</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/harmonica">Harmonica</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/horn">Horns</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/keys">Keys</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/lyrics">Lyrics</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/mix-master">Mix/Master</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/orchestra-instruments">Orchestra Inst.</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/producer">Producer</option>
-<option value="https://sites.google.com/site/fjatestsite/home/talent-profiles/singers">Singer</option></select>
     ]]>
   </Content>
 </Module>
