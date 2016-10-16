@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Upload To GoogleDrive" />
+  <Content type="html">
+    <![CDATA[
+      <bgcolor="silver">
+<FORM>
+<center><INPUT type="button" value="Upload File" title="Click this button!" onClick="window.open('https://drive.google.com/drive/my-drive','mywindow','width=400,height=400')"></center>
+</FORM> 
+    ]]>
+  </Content>
+</Module>
