@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Get MP3 Player" />
+  <Content type="html">
+    <![CDATA[
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+<g:hangout render="createhangout"></g:hangout>
+    ]]>
+  </Content>
+</Module>
