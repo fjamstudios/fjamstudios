@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title="Get MP3 Player" />
+  <ModulePrefs title="Start Google Hangout" />
   <Content type="html">
     <![CDATA[
       <script src="https://apis.google.com/js/platform.js" async defer></script>
