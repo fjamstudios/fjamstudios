@@ -5,7 +5,7 @@
     <![CDATA[
       <bgcolor="silver">
 <FORM>
-<center><INPUT type="button" value="Subscribe to The Project Listing!" title="Click this button!" onClick="window.open('https://plus.google.com/u/0/photos/photo/113702300984828916280/6461208224785359682?icm=false&iso=true&authkey=CL3Sq7fFtqn8iwE','mywindow','width=400,height=800')"></center>
+<center><INPUT type="button" value="Subscribe to The Project Listing!" title="Click this button!" onClick="window.open('https://plus.google.com/u/0/photos/photo/113702300984828916280/6461208224785359682?icm=false&iso=true&authkey=CL3Sq7fFtqn8iwE','mywindow','width=800,height=800')"></center>
 </FORM> 
     ]]>
   </Content>
