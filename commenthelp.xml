@@ -5,7 +5,7 @@
     <![CDATA[
       <bgcolor="silver">
 <FORM>
-<center><INPUT type="button" value="Help with comments" onClick="window.open('https://sites.google.com/site/fjatestsite/help/ifyoudontseecommentsatthebottomofthepages','mywindow','width=600,height=800')"></center>
+<center><INPUT type="button" value="Help with comments" onClick="window.open('https://sites.google.com/site/fjamstudiosmusicprojects/help/ifyoudontseecommentsatthebottomofthepages','mywindow','width=600,height=800')"></center>
 </FORM> 
     ]]>
   </Content>
