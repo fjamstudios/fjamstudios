@@ -3,26 +3,26 @@
   <ModulePrefs title="DAWS" />
   <Content type="html">
     <![CDATA[
-      <script language="JavaScript" type="text/JavaScript">
+       <script language="JavaScript" type="text/JavaScript">
 <!--
 function HDD_Menu(targetpage,selected){
 if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".location='"+selected.options[selected.selectedIndex].value+"'");}}
 //-->
 </script><select name="Pick Your DAW" onChange="HDD_Menu('parent',this)" style="color:#000000; background:#F1F345; font-weight:bold;" >
 <option value="" selected>Pick Your DAW</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/ableton">Ableton</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/acid-pro">Acid Pro</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/audacity">Audacity</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/cakewalk">Cakewalk</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/cubase">Cubase</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/garage-band">Garage Band</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/logic">Logic</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/n-track">N-Track</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/nuendo">Nuendo</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/presonus-studio-one">Presonus Studio One</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/pro-tools">Pro Tools</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/reaper">Reaper</option>
-<option value="https://sites.google.com/site/fjatestsite/daw-specific-discussions/reason">Reason</option></select>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/ableton">Ableton</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/acid-pro">Acid Pro</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/audacity">Audacity</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/cakewalk">Cakewalk</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/cubase">Cubase</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/garage-band">Garage Band</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/logic">Logic</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/n-track">N-Track</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/nuendo">Nuendo</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/presonus-studio-one">Presonus Studio One</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/pro-tools">Pro Tools</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/reaper">Reaper</option>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/reason">Reason</option></select>
     ]]>
   </Content>
 </Module>
