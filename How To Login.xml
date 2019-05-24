@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Login to F-Jam" />
+  <Content type="html">
+    <![CDATA[
+      <bgcolor="silver">
+<FORM>
+<center><INPUT type="button" value="How To Login" title="Click this button!" onClick="window.open('https://youtu.be/ROpiiXxoc0M','mywindow','width=1000,height=1000')"></center>
+</FORM> 
+    ]]>
+  </Content>
+</Module>
