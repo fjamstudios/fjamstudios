@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Javascript" />
+  <Content type="html">
+    <![CDATA[
+      <bgcolor="silver">
+<FORM>
+<center><INPUT type="button" value="About this site!" title="Click this button!" onClick="window.open('https://music.youtube.com/playlist?list=PLsadQJ9nO6mBujlnFKWyrBsJuHnG8f-7F','mywindow','width=600,height=800')"></center>
+</FORM> 
+    ]]>
+  </Content>
+</Module>
