@@ -23,6 +23,7 @@ if (selected.options[selected.selectedIndex].value!=""){  eval(targetpage+".loca
 <option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/pro-tools">Pro Tools</option>
 <option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/reaper">Reaper</option>
 <option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/reason">Reason</option></select>
+<option value="https://sites.google.com/site/fjamstudiosmusicprojects/daw-specific-discussions/tascam">Tascam</option></select>
     ]]>
   </Content>
 </Module>
